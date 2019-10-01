@@ -10,4 +10,3 @@ tmux new-session -d -s $SESSION \; \
 #     split-window -v \; send-keys "mosh pub" C-m \;
 
 tmux -2 attach-session -t $SESSION
-

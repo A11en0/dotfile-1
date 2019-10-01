@@ -5,10 +5,7 @@
 ;;; Code:
 
 ;; https://github.com/hick/emacs-chinese#%E4%B8%AD%E6%96%87%E6%96%AD%E8%A1%8C
-(use-package ox
-  :ensure org
-  :config
-  (defun clear-single-linebreak-in-cjk-string (string)
+(defun clear-single-linebreak-in-cjk-string (string)
     "Clear single line-break (STRING) between cjk characters that is usually soft line-breaks."
     (let* ((regexp "\\([\u4E00-\u9FA5]\\)\n\\([\u4E00-\u9FA5]\\)")
 		   (start (string-match regexp string)))
@@ -17,24 +14,24 @@
 			  start (string-match regexp string start))))
     string)
 
-  (defun ox-html-clear-single-linebreak-for-cjk (string backend info)
+(defun ox-html-clear-single-linebreak-for-cjk (string backend info)
 	"STRING.  BACKEND.  INFO."
 	;; (when (org-export-derived-backend-p backend 'html)
 	;; 	(clear-single-linebreak-in-cjk-string string))
 	(clear-single-linebreak-in-cjk-string string))
-  
-  (add-to-list 'org-export-filter-final-output-functions
-			   'ox-html-clear-single-linebreak-for-cjk)
 
-  (use-package ox-html
+(add-to-list 'org-export-filter-final-output-functions
+			 'ox-html-clear-single-linebreak-for-cjk)
+
+(use-package ox-html
 	:ensure org
 	:init
 	(setq
 	 org-html-link-org-files-as-html nil
 	 org-export-with-sub-superscripts t
 	 org-html-doctype "html5"
-	 org-html-head "<link rel=\"stylesheet\" href=\"https://cs2.swfu.edu.cn/org-info-js/org-manual.css\" type=\"text/css\">"
-	 org-html-head-extra "<style>code {font-family:Monospace; font-size:90%; background-color: #eee} body {font-size:14pt}</style>"
+	 org-html-head "<link rel=\"stylesheet\" href=\"https://cs6.swfu.edu.cn/org.css\" type=\"text/css\">"
+	 ;; org-html-head-extra "<style>code {font-family:Monospace; font-size:90%; background-color: #eee} body {font-size:14pt}</style>"
 	 org-export-default-language "cn"
 	 org-html-head-include-default-style nil))
 
@@ -97,8 +94,6 @@
 	 '("xelatex --shell-escape -interaction nonstopmode -output-directory %o %f"
 	   "xelatex --shell-escape -interaction nonstopmode -output-directory %o %f"
 	   "xelatex --shell-escape -interaction nonstopmode -output-directory %o %f")))
-  )
-  
 
 (provide 'init-ox)
 ;;; init-ox.el ends here

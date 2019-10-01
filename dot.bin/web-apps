@@ -2,14 +2,31 @@
 
 CHROME="/usr/bin/x-www-browser"
 QB="/usr/bin/qutebrowser --target window"
+SERVER="cs6.swfu.edu.cn"
+
+abs(){
+    bash -c "$QB ':set content.proxy none' file:///usr/share/doc/abs-guide/html/xrefindex.html &"
+}
+
+cdev(){
+    bash -c "$QB ':set content.proxy none' file://$HOME/lecture_notes/linux/c/c_dev.html &"
+}
+
+playbash(){
+    bash -c "$QB ':set content.proxy none' file://$HOME/lecture_notes/linux/bash/shell_basics.plain.html &"
+}
+
+tcpipguide(){
+    bash -c "$QB ':set content.proxy none' file://$HOME/Documents/network/www.tcpipguide.com/free/t_toc.htm &"
+}
 
 baidupan(){
-    bash -c "$QB https://pan.baidu.com &"
+    bash -c "$QB ':set content.proxy none' https://pan.baidu.com &"
 }
 
 techbooks(){
 	# jkxjxxz:swfcxs
-	bash -c "$QB ':set content.proxy none' https://cs3/tech &"
+	bash -c "$QB ':set content.proxy none' https://$SERVER/calibre &"
 }
 #calibre2(){
 #	# calibre:1984
@@ -107,7 +124,7 @@ jd(){
 }
 
 lecturenotes(){
-	bash -c "$QB ':set content.proxy none' http://cs2.swfu.edu.cn/~wx672/lecture_notes &"
+	bash -c "$QB ':set content.proxy none' https://$SERVER/~wx672/lecture_notes &"
 }
 
 lizhifm(){
@@ -123,7 +140,7 @@ meituan(){
 }
 
 moodle(){
-  bash -c "$QB ':set content.proxy none' http://cs6.swfu.edu.cn/moodle/ &"
+  bash -c "$QB ':set content.proxy none' https://$SERVER/moodle/ &"
 }
 
 music163(){
@@ -171,7 +188,7 @@ timer(){
 }
 
 travelogs(){
-	bash -c "$QB ':set content.proxy none' http://cs2.swfu.edu.cn/~wx672/travelogs &"
+	bash -c "$QB ':set content.proxy none' https://$SERVER/~wx672/travelogs &"
 }
 
 twitter(){

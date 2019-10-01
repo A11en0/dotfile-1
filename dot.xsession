@@ -3,6 +3,7 @@
 # /usr/share/doc/xfree86-common/examples/xsession
 # seems /etc/X11/xinit/xinput.d/fcitx is not sourced as expected. so have to do it here.
 
+# fcitx crashes, so try ibus instead
 export XIM=fcitx
 export XIM_PROGRAM=/usr/bin/fcitx
 export XIM_ARGS=""

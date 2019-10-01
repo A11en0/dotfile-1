@@ -3,12 +3,12 @@
 ;;; Commentary:
 
 ;;; Code:
-
+(global-set-key (kbd "C-h") 'delete-backward-char)
+(global-set-key [M-f1] 'help-command)
 (global-set-key (kbd "C-<return>") 'delete-other-windows)
 (global-set-key (kbd "C-j") 'reindent-then-newline-and-indent)
 (global-set-key (kbd "<print>") 'ps-print-region-with-faces)
 (global-set-key [f1] 'query-replace-regexp)
-(global-set-key [M-f1] 'menu-bar-mode)
 (global-set-key [f2] 'hs-toggle-hiding)
 ;; (global-set-key [M-f2] 'mode-line-hide)
 ;; (global-set-key [M-S-f2] 'mode-line-show)

@@ -228,6 +228,12 @@
   :bind
   ("C-c g" . magit-status))
 
+;; https://github.com/jorgenschaefer/elpy
+(use-package elpy
+  :ensure t
+  :init
+  (elpy-enable))
+
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
 (add-hook 'c-mode-hook
           (lambda() (local-set-key (kbd "C-c C-c") #'compile)))
