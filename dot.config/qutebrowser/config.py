@@ -50,7 +50,7 @@ c.url.default_page = 'https://google.com'
 c.url.open_base_url = True
 #c.url.start_pages = 'https://start.duckduckgo.com'
 c.url.start_pages = 'https://google.com'
-c.zoom.default = "175%"
+c.zoom.default = "125%"
 c.zoom.levels = ["75%","100%","125%","150%","175%","200%","225%","250%","275%","300%","400%","500%"]
 
 # searches

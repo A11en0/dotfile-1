@@ -5,8 +5,8 @@
 XTerm*loginShell: true
 
 !!!font and locale
-XTerm*faceName: Monospace
-XTerm*boldFont: Monospace
+XTerm*faceName: MONACO
+XTerm*boldFont: MONACO
 !XTerm*boldFont: Noto Mono:style=Bold
 XTerm*faceSize: 18
 XTerm*faceSize1: 14
