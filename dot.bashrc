@@ -41,3 +41,29 @@ tabs -4 &>/dev/null
 
 #source ~/.xsh
 export GPGKEY=0EE277C8D838C7DA
+
+export PATH=$PATH:/home/allen/idea-IU/bin
+export PATH=$PATH:/home/allen/pycharm-2019.3.1/bin
+
+# Java1.8 
+JAVA_HOME=/usr/java/jdk1.8.0_231
+CLASSPATH=$JAVA_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin
+export PATH JAVA_HOME CLASSPATH
+
+# added by Anaconda3 5.3.1 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/allen/.anaconda/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/home/allen/.anaconda/etc/profile.d/conda.sh" ]; then
+        . "/home/allen/.anaconda/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/home/allen/.anaconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<

@@ -1,0 +1,33 @@
+body, html {
+    overflow-y: auto;
+}
+
+.layui-side-scroll {
+    width: 160px;
+}
+
+.layui-nav-tree {
+    width: auto;
+}
+
+.layui-nav-tree .layui-nav-item a {
+    height: 40px;
+    line-height: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: green;
+}

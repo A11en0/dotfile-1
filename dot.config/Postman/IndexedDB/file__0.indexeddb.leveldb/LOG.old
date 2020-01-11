@@ -1,0 +1,18 @@
+2020/01/08-04:09:53.649 82396 Reusing MANIFEST /home/allen/dotfile/dot.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2020/01/08-04:09:53.650 82396 Recovering log #21
+2020/01/08-04:09:53.650 82396 Reusing old log /home/allen/dotfile/dot.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000021.log 
+2020/01/08-04:10:08.920 82401 Current memtable full; waiting...
+2020/01/08-04:10:08.926 82668 Level-0 table #26: started
+2020/01/08-04:10:08.938 82668 Level-0 table #26: 9650 bytes OK
+2020/01/08-04:10:08.946 82668 Delete type=0 #21
+2020/01/08-04:10:08.946 82668 Level-0 table #28: started
+2020/01/08-04:10:08.946 82668 Level-0 table #28: 0 bytes OK
+2020/01/08-04:10:08.954 82668 Delete type=0 #25
+2020/01/08-04:10:08.954 82668 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 2289 : 1
+2020/01/08-04:10:08.954 82668 Compacting 1@0 + 1@1 files
+2020/01/08-04:10:08.965 82668 Generated table #29@0: 1237 keys, 152055 bytes
+2020/01/08-04:10:08.965 82668 Compacted 1@0 + 1@1 files => 152055 bytes
+2020/01/08-04:10:08.972 82668 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/08-04:10:08.972 82668 Delete type=2 #23
+2020/01/08-04:10:08.972 82668 Delete type=2 #26
+2020/01/08-04:10:08.972 82668 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 2289 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
