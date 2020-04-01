@@ -24,7 +24,8 @@
 # 	smtpserverport = 587
 [http]
  	sslVerify = false
-# 	proxy = socks5://127.0.0.1:1080
+	postBuffer = 524288000
+	#proxy = socks5://127.0.0.1:1080
 [https]
  	sslVerify = false
-# 	proxy = socks5://127.0.0.1:1080
+	#proxy = socks5://127.0.0.1:1080

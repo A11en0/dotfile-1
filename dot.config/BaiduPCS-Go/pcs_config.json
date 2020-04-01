@@ -1,0 +1,29 @@
+{
+ "baidu_active_uid": 4325605895,
+ "baidu_user_list": [
+  {
+   "uid": 4325605895,
+   "name": "luck_19685",
+   "sex": "unknown",
+   "age": 0.2,
+   "bduss": "mlSYkROVFZDZXQ3VzBESk8yS2hYR0F0WGd2eUJ3ck5iWjRhUTNYRlJnTkkxVXRlRUFBQUFBJCQAAAAAAQAAAAEAAAAHgtMBbHVja18xOTY4NQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhIJF5ISCRea",
+   "ptoken": "",
+   "stoken": "",
+   "workdir": "/高通S8-N8"
+  }
+ ],
+ "appid": 266719,
+ "cache_size": 65536,
+ "max_parallel": 8,
+ "max_upload_parallel": 8,
+ "max_download_load": 1,
+ "max_download_rate": 0,
+ "max_upload_rate": 0,
+ "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
+ "pcs_ua": "",
+ "pan_ua": "netdisk;2.2.51.6;netdisk;10.0.63;PC;android-android",
+ "savedir": "/home/allen/Downloads",
+ "enable_https": true,
+ "proxy": "",
+ "local_addrs": ""
+}

@@ -1,5 +1,5 @@
 # colors
-#set recolor true
+set recolor true
 #set recolor-keephue true
 #set recolor-reverse-video true
 set recolor-lightcolor "#FDF6E3"

@@ -5,10 +5,11 @@
 XTerm*loginShell: true
 
 !!!font and locale
-XTerm*faceName: MONACO
+!XTerm*faceName: MONACO
+XTerm*faceName: SauceCodePro Nerd Font Mono
 XTerm*boldFont: MONACO
 !XTerm*boldFont: Noto Mono:style=Bold
-XTerm*faceSize: 18
+XTerm*faceSize: 20
 XTerm*faceSize1: 14
 XTerm*faceSize2: 16
 XTerm*faceSize3: 18
@@ -17,6 +18,7 @@ XTerm*faceSize5: 22
 XTerm*faceSize6: 24
 XTerm*antialias: false
 XTerm*faceNameDoublesize: Noto Sans Mono CJK SC
+!XTerm*faceNameDoublesize: SauceCodePro Nerd Font Mono
 
 ! set 'cjkWidth' to true makes aptitude window messy.
 !XTerm*cjkWidth: true

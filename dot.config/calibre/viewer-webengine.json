@@ -1,0 +1,38 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAyBAAAAAAAADv4AAAQ3AAAMggAAAAAAAA79AAAENwAAAAEAAAAAB4AAAAyCAAAAAAAADv0AAAQ3"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAFEA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAZAD///8AAAABAAAAAAAAAAD8AgAAAAP7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAABFAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAIUA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAADgD///8AAAJ8AAAEOAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAAAAAABAAAAHgBhAGMAdABpAG8AbgBzAF8AdABvAG8AbABiAGEAcgIAAAAA/////wAAAAAAAAAA"
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "key": "/home/allen/激活码 (2).txt",
+        "pathtoebook": "/home/allen/激活码 (2).txt",
+        "timestamp": "2020-03-04T11:58:59.283Z",
+        "title": "激活码 (2)"
+      },
+      {
+        "authors": [
+          "John Schember"
+        ],
+        "key": "/home/allen/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub",
+        "pathtoebook": "/home/allen/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub",
+        "timestamp": "2020-03-03T05:53:22.902Z",
+        "title": "Quick Start Guide"
+      }
+    ]
+  }
+}

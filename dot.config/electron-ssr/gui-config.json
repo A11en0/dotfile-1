@@ -1,0 +1,48 @@
+{
+	"configs": [
+		{
+			"server": "127.0.0.1",
+			"server_port": 8388,
+			"password": "0",
+			"method": "aes-256-cfb",
+			"protocol": "origin",
+			"protocolparam": "",
+			"obfs": "plain",
+			"obfsparam": "",
+			"remarks": "",
+			"group": "",
+			"id": "D3591E565C1F8D863BFB0139603A0D93",
+			"enable": true,
+			"remarks_base64": ""
+		}
+	],
+	"index": 0,
+	"enable": true,
+	"autoLaunch": false,
+	"shareOverLan": false,
+	"localPort": 1080,
+	"ssrPath": "/home/allen/dotfile/dot.config/electron-ssr/shadowsocksr/shadowsocks",
+	"pacPort": 2333,
+	"sysProxyMode": 1,
+	"serverSubscribes": [],
+	"httpProxyEnable": true,
+	"globalShortcuts": {
+		"toggleWindow": {
+			"key": "Ctrl+Shift+W",
+			"enable": true
+		},
+		"switchSystemProxy": {
+			"key": "",
+			"enable": false
+		}
+	},
+	"windowShortcuts": {
+		"toggleMenu": {
+			"key": "Ctrl+Shift+B",
+			"enable": true
+		}
+	},
+	"httpProxyPort": 12333,
+	"autoUpdateSubscribes": true,
+	"subscribeUpdateInterval": 24
+}

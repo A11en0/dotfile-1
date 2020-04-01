@@ -1,50 +1,20 @@
-2020/01/11-04:17:32.436 5c3a Recovering log #236
-2020/01/11-04:17:32.436 5c3a Level-0 table #239: started
-2020/01/11-04:17:32.437 5c3a Level-0 table #239: 4528 bytes OK
-2020/01/11-04:17:32.437 5c3a Delete type=0 #236
-2020/01/11-04:17:32.437 5c3a Delete type=3 #221
-2020/01/11-04:18:06.489 5d32 Level-0 table #242: started
-2020/01/11-04:18:06.490 5d32 Level-0 table #242: 8819 bytes OK
-2020/01/11-04:18:06.493 5d32 Delete type=0 #240
-2020/01/11-04:18:37.034 5d32 Level-0 table #244: started
-2020/01/11-04:18:37.035 5d32 Level-0 table #244: 8819 bytes OK
-2020/01/11-04:18:37.037 5d32 Delete type=0 #241
-2020/01/11-04:18:37.037 5d32 Compacting 4@0 + 1@1 files
-2020/01/11-04:18:37.038 5d32 Generated table #245@0: 3 keys, 656 bytes
-2020/01/11-04:18:37.038 5d32 Compacted 4@0 + 1@1 files => 656 bytes
-2020/01/11-04:18:37.038 5d32 compacted to: files[ 0 1 2 0 0 0 0 ]
-2020/01/11-04:18:37.039 5d32 Delete type=2 #244
-2020/01/11-04:18:37.039 5d32 Delete type=2 #242
-2020/01/11-04:18:37.039 5d32 Delete type=2 #239
-2020/01/11-04:18:37.039 5d32 Delete type=2 #237
-2020/01/11-04:18:37.039 5d32 Delete type=2 #235
-2020/01/11-04:19:07.578 5d32 Level-0 table #247: started
-2020/01/11-04:19:07.579 5d32 Level-0 table #247: 8812 bytes OK
-2020/01/11-04:19:07.581 5d32 Delete type=0 #243
-2020/01/11-04:19:38.120 5d32 Level-0 table #249: started
-2020/01/11-04:19:38.121 5d32 Level-0 table #249: 8811 bytes OK
-2020/01/11-04:19:38.124 5d32 Delete type=0 #246
-2020/01/11-04:20:08.665 5d32 Level-0 table #251: started
-2020/01/11-04:20:08.666 5d32 Level-0 table #251: 8764 bytes OK
-2020/01/11-04:20:08.667 5d32 Delete type=0 #248
-2020/01/11-04:20:39.210 5d32 Level-0 table #253: started
-2020/01/11-04:20:39.211 5d32 Level-0 table #253: 8836 bytes OK
-2020/01/11-04:20:39.213 5d32 Delete type=0 #250
-2020/01/11-04:20:39.213 5d32 Compacting 4@0 + 1@1 files
-2020/01/11-04:20:39.214 5d32 Generated table #254@0: 3 keys, 657 bytes
-2020/01/11-04:20:39.214 5d32 Compacted 4@0 + 1@1 files => 657 bytes
-2020/01/11-04:20:39.214 5d32 compacted to: files[ 0 1 2 0 0 0 0 ]
-2020/01/11-04:20:39.215 5d32 Delete type=2 #253
-2020/01/11-04:20:39.215 5d32 Delete type=2 #251
-2020/01/11-04:20:39.215 5d32 Delete type=2 #249
-2020/01/11-04:20:39.215 5d32 Delete type=2 #247
-2020/01/11-04:20:39.215 5d32 Delete type=2 #245
-2020/01/11-04:21:09.753 5d32 Level-0 table #256: started
-2020/01/11-04:21:09.754 5d32 Level-0 table #256: 8845 bytes OK
-2020/01/11-04:21:09.757 5d32 Delete type=0 #252
-2020/01/11-04:21:40.295 5d32 Level-0 table #258: started
-2020/01/11-04:21:40.296 5d32 Level-0 table #258: 8841 bytes OK
-2020/01/11-04:21:40.297 5d32 Delete type=0 #255
-2020/01/11-04:22:10.839 5d32 Level-0 table #260: started
-2020/01/11-04:22:10.839 5d32 Level-0 table #260: 8838 bytes OK
-2020/01/11-04:22:10.842 5d32 Delete type=0 #257
+2020/03/31-13:00:33.482 14ce Recovering log #664
+2020/03/31-13:00:33.482 14ce Level-0 table #667: started
+2020/03/31-13:00:33.482 14ce Level-0 table #667: 11852 bytes OK
+2020/03/31-13:00:33.483 14ce Delete type=0 #664
+2020/03/31-13:00:33.483 14ce Delete type=3 #645
+2020/03/31-13:01:21.055 14f3 Level-0 table #670: started
+2020/03/31-13:01:21.056 14f3 Level-0 table #670: 7249 bytes OK
+2020/03/31-13:01:21.058 14f3 Delete type=0 #668
+2020/03/31-13:02:06.620 14f3 Level-0 table #672: started
+2020/03/31-13:02:06.621 14f3 Level-0 table #672: 7126 bytes OK
+2020/03/31-13:02:06.622 14f3 Delete type=0 #669
+2020/03/31-13:02:06.622 14f3 Compacting 4@0 + 1@1 files
+2020/03/31-13:02:06.623 14f3 Generated table #673@0: 40 keys, 2924 bytes
+2020/03/31-13:02:06.623 14f3 Compacted 4@0 + 1@1 files => 2924 bytes
+2020/03/31-13:02:06.623 14f3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/31-13:02:06.625 14f3 Delete type=2 #663
+2020/03/31-13:02:06.625 14f3 Delete type=2 #665
+2020/03/31-13:02:06.625 14f3 Delete type=2 #672
+2020/03/31-13:02:06.625 14f3 Delete type=2 #670
+2020/03/31-13:02:06.625 14f3 Delete type=2 #667
