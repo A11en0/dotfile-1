@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtCreator 4.8.0, 2020-06-03T01:42:11. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">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</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/allen/tmp/SerialPort/SerialPort.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/allen/tmp/SerialPort/SerialPort.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/home/allen/tmp/SerialPort</value>
+    <value type="QString">Headers</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/allen/tmp/SerialPort</value>
+    <value type="QString">Sources</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/allen/tmp/SerialPort</value>
+    <value type="QString">Forms</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/allen/tmp/SerialPort</value>
+    <value type="QString">SerialPort</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">true</value>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+  </valuelist>
+ </data>
+</qtcreator>

@@ -1,0 +1,18 @@
+{
+    "app_name": "wpzs",
+    "option_date": "20200520",
+    "feedback_email": "newday_me@163.com",
+    "http_aes_password": "E80Z^fiYXuyWxw$!",
+    "urls": {
+        "doc": "http://go.newday.me/s/pan-doc",
+        "test": "http://go.newday.me/s/link-test",
+        "privacy": "http://go.newday.me/s/privacy",
+        "upgrade": "http://go.newday.me/s/pan-upgrade"
+    },
+    "apis": {
+        "version": "https://api.newday.me/share/disk/version",
+        "info": "https://api.newday.me/share/disk/info"
+    },
+    "store_auto_install": "yes",
+    "store_default_url": "/json/store.json"
+}

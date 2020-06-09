@@ -1,3 +1,47 @@
-2020/03/31-12:48:29.857 bb6 Reusing MANIFEST /home/allen/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/31-12:48:29.858 bb6 Recovering log #761
-2020/03/31-12:48:29.858 bb6 Reusing old log /home/allen/.config/google-chrome/Default/Local Storage/leveldb/000761.log 
+2020/06/08-05:12:48.693 bfe Reusing MANIFEST /home/allen/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/06/08-05:12:48.697 bfe Recovering log #16093
+2020/06/08-05:12:48.697 bfe Reusing old log /home/allen/.config/google-chrome/Default/Local Storage/leveldb/016093.log 
+2020/06/08-05:18:37.994 d5d Level-0 table #16097: started
+2020/06/08-05:18:37.995 d5d Level-0 table #16097: 70265 bytes OK
+2020/06/08-05:18:37.996 d5d Delete type=0 #16093
+2020/06/08-05:18:37.996 d5d Compacting 4@0 + 3@1 files
+2020/06/08-05:18:38.039 d5d Generated table #16098@0: 2294 keys, 2179849 bytes
+2020/06/08-05:18:38.080 d5d Generated table #16099@0: 7820 keys, 2103612 bytes
+2020/06/08-05:18:38.105 d5d Generated table #16100@0: 5640 keys, 1191483 bytes
+2020/06/08-05:18:38.105 d5d Compacted 4@0 + 3@1 files => 5474944 bytes
+2020/06/08-05:18:38.105 d5d compacted to: files[ 0 3 2 0 0 0 0 ]
+2020/06/08-05:18:38.106 d5d Delete type=2 #16092
+2020/06/08-05:18:38.106 d5d Delete type=2 #16087
+2020/06/08-05:18:38.106 d5d Delete type=2 #16094
+2020/06/08-05:18:38.106 d5d Delete type=2 #16088
+2020/06/08-05:18:38.106 d5d Delete type=2 #16086
+2020/06/08-05:18:38.106 d5d Delete type=2 #16090
+2020/06/08-05:18:38.106 d5d Delete type=2 #16097
+2020/06/08-05:20:21.173 d5d Level-0 table #16102: started
+2020/06/08-05:20:21.177 d5d Level-0 table #16102: 65828 bytes OK
+2020/06/08-05:20:21.177 d5d Delete type=0 #16096
+2020/06/08-05:57:21.173 d5d Level-0 table #16104: started
+2020/06/08-05:57:21.173 d5d Level-0 table #16104: 14186 bytes OK
+2020/06/08-05:57:21.174 d5d Delete type=0 #16101
+2020/06/08-07:00:23.069 d5d Level-0 table #16106: started
+2020/06/08-07:00:23.070 d5d Level-0 table #16106: 15529 bytes OK
+2020/06/08-07:00:23.070 d5d Delete type=0 #16103
+2020/06/08-07:01:57.676 d5d Level-0 table #16108: started
+2020/06/08-07:01:57.678 d5d Level-0 table #16108: 62618 bytes OK
+2020/06/08-07:01:57.678 d5d Delete type=0 #16105
+2020/06/08-07:01:57.679 d5d Compacting 4@0 + 3@1 files
+2020/06/08-07:01:57.722 d5d Generated table #16109@0: 2297 keys, 2179795 bytes
+2020/06/08-07:01:57.769 d5d Generated table #16110@0: 7845 keys, 2104388 bytes
+2020/06/08-07:01:57.828 d5d Generated table #16111@0: 5660 keys, 1191881 bytes
+2020/06/08-07:01:57.828 d5d Compacted 4@0 + 3@1 files => 5476064 bytes
+2020/06/08-07:01:57.829 d5d compacted to: files[ 0 3 2 0 0 0 0 ]
+2020/06/08-07:01:57.829 d5d Delete type=2 #16108
+2020/06/08-07:01:57.829 d5d Delete type=2 #16106
+2020/06/08-07:01:57.829 d5d Delete type=2 #16104
+2020/06/08-07:01:57.829 d5d Delete type=2 #16102
+2020/06/08-07:01:57.829 d5d Delete type=2 #16100
+2020/06/08-07:01:57.829 d5d Delete type=2 #16099
+2020/06/08-07:01:57.829 d5d Delete type=2 #16098
+2020/06/08-07:02:28.589 d5d Level-0 table #16113: started
+2020/06/08-07:02:28.591 d5d Level-0 table #16113: 61505 bytes OK
+2020/06/08-07:02:28.591 d5d Delete type=0 #16107

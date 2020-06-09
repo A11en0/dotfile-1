@@ -87,7 +87,7 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec dmenu_run
 
 # run rofi
-bindsym $mod+d exec rofi -show run
+# bindsym $mod+d exec rofi -show run
 
 # screen shot
 bindsym $mod+Shift+f exec flameshot gui 
@@ -307,13 +307,13 @@ new_window pixel 0
 # screen timeout
 exec --no-startup-id xset dpms 600 800 900
 
-# xrandr
+# 多屏幕扩展
 # exec --no-startup-id xrandr --output eDP1 --mode 1920x1080 --same-as HDMI2
 # bindsym $mod+o exec --no-startup-id xrandr --output eDP-1 --same-as HDMI2 --auto
-bindsym $mod+i exec --no-startup-id xrandr --output HDMI-2 --same-as eDP-1 --auto
-bindsym $mod+o exec --no-startup-id xrandr --output HDMI-2 --off
-bindsym $mod+p exec --no-startup-id xrandr --output HDMI-2 --right-of eDP-1 --auto
-
+# bindsym $mod+i exec --no-startup-id xrandr --output HDMI-2 --same-as eDP-1 --auto
+bindsym $mod+o exec --no-startup-id mons -n right
+#bindsym $mod+p exec --no-startup-id xrandr --output HDMI-2 --right-of eDP-1 --auto
+bindsym $mod+p exec --no-startup-id mons -e right
 
 # Moving workspaces between screens
 bindsym $mod+n move workspace to output right
@@ -360,6 +360,16 @@ client.background #ffffff
 
 # 设置全屏模式下遇到弹窗的处理方法
 popup_during_fullscreen smart
+
+# 初始化启动终端
+exec --no-startup-id  xterm -e tmux
+exec --no-startup-id feh --randomize --bg-scale /home/allen/.wallpapers/*
+
+# 启动通知器dunst
+exec --no-startup-id dunst -config ~/.config/i3/config_dunst
+
+# exec_always --no-startup-id  xterm -e tmux
+# exec --no-startup-id feh --bg-scale /home/allen/Apple-Wallpaper-1.jpg
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a

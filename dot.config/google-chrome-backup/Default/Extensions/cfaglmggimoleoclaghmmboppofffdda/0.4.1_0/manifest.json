@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "logo/logo_128.png",
+         "16": "logo/logo_16.png",
+         "48": "logo/logo_48.png"
+      },
+      "default_popup": "/one/popup/popup.html",
+      "default_title": "网盘助手"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "/js/register.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "大概是最优雅好用的网盘助手了。",
+   "differential_fingerprint": "1.5df6b1f525b9fec298d7ff76988408c166f0a49f832e201fd4168bcd3f7f10c9",
+   "homepage_url": "http://go.newday.me/s/pan-home",
+   "icons": {
+      "128": "logo/logo_128.png",
+      "16": "logo/logo_16.png",
+      "48": "logo/logo_48.png",
+      "96": "logo/logo_96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApsP6HV28bM0M2XF/Vx6wU5YVtqaLSC2Vu63DrPEgO7jqi1/6OMrl03LScSpGIV6ZzX0lpZGB0LRsj23LG6aMD0SkHXFEC6kGv0Jf18Xm+ZdZVXNNPtD4OgMgfUEb811Cn1qU27dr2tQN3MGYf6wwBpuxbcnPN86gE0WIT/l+LapFx2FkSJijV7T0Ec2sUTM69gbxoQQrTCeZxvrT8Z8sVWRqmlmSnE+F3QePn8PhCQXz+eI1zKoI9LYn4OSf+dfSLoWskotyA3xyx+Sthp68HLqliyCtZ242ngtVyhGBKYQLCE4in2cCfU28BISU2rdSldtza+e7G8BvhE1ssQQQ+QIDAQAB",
+   "manifest_version": 2,
+   "name": "网盘助手",
+   "options_page": "/one/pan/option.html",
+   "permissions": [ "tabs", "storage", "notifications", "*://*.baidu.com/*", "*://*.lanzous.com/*", "*://*.weiyun.com/*", "*://*.189.cn/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.1"
+}

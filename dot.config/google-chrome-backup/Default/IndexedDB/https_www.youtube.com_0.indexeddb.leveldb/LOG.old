@@ -1,3 +1,15 @@
-2020/03/26-01:36:38.269 8d3bd Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/03/26-01:36:38.270 8d3bd Recovering log #3
-2020/03/26-01:36:38.288 8d3bd Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2020/06/08-00:35:07.205 1b7ab Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/08-00:35:07.206 1b7ab Recovering log #59
+2020/06/08-00:35:07.206 1b7ab Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000059.log 
+2020/06/08-00:35:43.970 10e5 Level-0 table #64: started
+2020/06/08-00:35:43.970 10e5 Level-0 table #64: 1012 bytes OK
+2020/06/08-00:35:43.970 10e5 Delete type=0 #59
+2020/06/08-00:35:43.971 10e5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/08-00:35:43.971 10e5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x13\x00T\x00i\x00m\x00e\x00s\x00t\x00a\x00m\x00p\x00L\x00o\x00w\x00e\x00r\x00B\x00o\x00u\x00n\x00d' @ 12688 : 1
+2020/06/08-00:35:43.971 10e5 Compacting 1@1 + 1@2 files
+2020/06/08-00:35:43.971 10e5 Generated table #65@1: 40 keys, 2108 bytes
+2020/06/08-00:35:43.971 10e5 Compacted 1@1 + 1@2 files => 2108 bytes
+2020/06/08-00:35:43.971 10e5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/08-00:35:43.972 10e5 Delete type=2 #64
+2020/06/08-00:35:43.972 10e5 Delete type=2 #61
+2020/06/08-00:35:43.972 10e5 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x13\x00T\x00i\x00m\x00e\x00s\x00t\x00a\x00m\x00p\x00L\x00o\x00w\x00e\x00r\x00B\x00o\x00u\x00n\x00d' @ 12688 : 1 .. (end); will stop at (end)

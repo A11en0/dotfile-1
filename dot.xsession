@@ -31,6 +31,7 @@ export NO_AT_BRIDGE=1
 # see ~/.config/systemd/user/emacs.service
 #[ -x /usr/bin/emacs ] && /usr/bin/emacs --daemon &
 [ -x /usr/bin/udiskie ] && /usr/bin/udiskie -F &
+[ -x /usr/bin/albert ] && /usr/bin/albert &
 # [ -x /usr/bin/redshift ] && /usr/bin/redshift &
 [ -x /usr/lib/notification-daemon/notification-daemon ] && /usr/lib/notification-daemon/notification-daemon &
 #[ -x /usr/bin/compton ] && /usr/bin/compton -b

@@ -1,3 +1,8 @@
-2020/03/31-12:53:25.384 fdb Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/MANIFEST-000001
-2020/03/31-12:53:25.384 fdb Recovering log #3
-2020/03/31-12:53:25.385 fdb Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/000003.log 
+2020/06/08-07:24:20.778 c47 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/08-07:24:20.778 c47 Recovering log #25
+2020/06/08-07:24:20.778 c47 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/000025.log 
+2020/06/08-07:29:31.487 f3b Level-0 table #29: started
+2020/06/08-07:29:31.487 f3b Level-0 table #29: 0 bytes OK
+2020/06/08-07:29:31.488 f3b Delete type=0 #25
+2020/06/08-07:29:31.488 f3b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/08-07:29:31.488 f3b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

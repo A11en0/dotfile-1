@@ -1,0 +1,5 @@
+2020/06/03-04:58:02.464 3c25d Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.speedtest.cn_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/03-11:26:11.476 12bc Level-0 table #5: started
+2020/06/03-11:26:11.476 12bc Level-0 table #5: 818 bytes OK
+2020/06/03-11:26:11.476 12bc Delete type=0 #3
+2020/06/03-11:26:11.476 12bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

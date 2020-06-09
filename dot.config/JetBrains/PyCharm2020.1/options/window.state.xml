@@ -1,0 +1,57 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.2560.0.1920.1080" x="3148" y="204" />
+    <size key="GridCell.Tab.0.left.2560.0.1920.1080" width="1860" height="291" />
+    <size key="GridCell.Tab.0.center.2560.0.1920.1080" width="1860" height="291" />
+    <size key="GridCell.Tab.0.right.2560.0.1920.1080" width="1860" height="291" />
+    <size key="GridCell.Tab.0.bottom.2560.0.1920.1080" width="1860" height="291" />
+    <size key="find.popup.2560.0.1920.1080" width="824" height="656" />
+    <size key="GridCell.Tab.1.left.2560.0.1920.1080" width="898" height="308" />
+    <size key="GridCell.Tab.1.center.2560.0.1920.1080" width="898" height="308" />
+    <size key="GridCell.Tab.1.right.2560.0.1920.1080" width="898" height="308" />
+    <size key="GridCell.Tab.1.bottom.2560.0.1920.1080" width="898" height="308" />
+    <size key="GridCell.Tab.2.left.2560.0.1920.1080" width="706" height="358" />
+    <size key="GridCell.Tab.2.center.2560.0.1920.1080" width="706" height="358" />
+    <size key="GridCell.Tab.2.right.2560.0.1920.1080" width="706" height="358" />
+    <size key="GridCell.Tab.2.bottom.2560.0.1920.1080" width="706" height="358" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="999" height="354" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="999" height="354" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="999" height="354" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="999" height="354" />
+    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="999" height="354" />
+    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="999" height="354" />
+    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="999" height="354" />
+    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="999" height="354" />
+  </component>
+  <component name="WindowManager">
+    <frame x="3520" y="-18" width="962" height="1100" />
+    <layout>
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="1127" y="416" key="FileChooserDialogImpl" timestamp="1591260266772">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1127" y="416" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080" timestamp="1591260266772" />
+    <state x="2560" y="938" width="400" height="143" key="ProcessPopupWindow" timestamp="1590480627253">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2560" y="938" width="400" height="143" key="ProcessPopupWindow/0.0.2560.1440/2560.0.1920.1080" timestamp="1590480627253" />
+    <state x="3000" y="484" width="864" height="349" key="bookmarks" timestamp="1586251458974">
+      <screen x="2560" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3000" y="484" width="864" height="349" key="bookmarks/0.0.2560.1440/2560.0.1920.1080" timestamp="1586251458974" />
+  </component>
+</application>

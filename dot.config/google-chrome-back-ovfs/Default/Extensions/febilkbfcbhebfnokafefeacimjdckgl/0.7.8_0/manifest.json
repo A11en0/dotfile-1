@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/jquery.js", "js/background/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Markdown Preview Plus"
+   },
+   "content_scripts": [ {
+      "css": [ "theme/MarkdownTOC.css" ],
+      "js": [ "js/jquery.js", "js/marked.js", "js/highlight.js", "js/config.js", "js/markdownify.js", "js/webfont.js", "js/snap.svg-min.js", "js/underscore-min.js", "js/sequence-diagram-min.js", "js/raphael.min.js", "js/flowchart.min.js", "js/diagramflowseq.js", "js/katex.min.js", "js/rawdeflate.js", "js/platumlencode.js" ],
+      "matches": [ "file://*/*.*md*", "file://*/*.*MD*", "file://*/*.text", "file://*/*.markdown*", "file://*/*.mdown*", "file://*/*.txt*", "file://*/*.mkd*", "file://*/*.rst*", "*://*/*.*md*", "*://*/*.*MD*", "*://*/*.text", "*://*/*.markdown*", "*://*/*.mdown*", "*://*/*.txt*", "*://*/*.mkd*", "*://*/*.rst*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Converts and previews markdown files (.md, .markdown) to HTML(include TOC) right inside Chrome and support live reload",
+   "icons": {
+      "128": "images/icon.png",
+      "16": "images/icon.png",
+      "48": "images/icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfIzz2K/a4MjJFPo38qAtuOx2A/pxudP6Xb32xkjjBBghNYtL8FfQYNc7q8cCUBAABaIwQRPD04SHtaPwPoTgWHw6PHUx5M/f4VzLZ12m9T3RLmDpsDSbM/dp2PUutRKOdvvlJJ/U7NjG7EmlKrmUhd7ApJShSqmkAUG3n3C2McwIDAQAB",
+   "manifest_version": 2,
+   "name": "Markdown Preview Plus",
+   "options_page": "options.html",
+   "permissions": [ "storage", "clipboardWrite", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.7.8",
+   "web_accessible_resources": [ "bootstrap.css", "theme/*.css", "theme/i/cal.png", "theme/i/compass.png", "theme/i/doc.png", "theme/i/email.png", "theme/i/folder.png", "theme/fonts/*" ]
+}

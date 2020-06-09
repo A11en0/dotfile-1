@@ -1,6 +1,34 @@
-2020/03/31-12:53:25.240 fda Reusing MANIFEST /home/allen/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/31-12:53:25.241 fda Recovering log #761
-2020/03/31-12:53:25.241 fda Reusing old log /home/allen/.config/google-chrome/Default/Local Storage/leveldb/000761.log 
-2020/03/31-12:53:36.844 1037 Level-0 table #767: started
-2020/03/31-12:53:36.845 1037 Level-0 table #767: 15309 bytes OK
-2020/03/31-12:53:36.845 1037 Delete type=0 #761
+2020/06/08-07:24:19.244 c1a Reusing MANIFEST /home/allen/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/06/08-07:24:19.248 c1a Recovering log #16112
+2020/06/08-07:24:19.248 c1a Reusing old log /home/allen/.config/google-chrome/Default/Local Storage/leveldb/016112.log 
+2020/06/08-07:24:54.670 ed3 Level-0 table #16116: started
+2020/06/08-07:24:54.674 ed3 Level-0 table #16116: 68272 bytes OK
+2020/06/08-07:24:54.675 ed3 Delete type=0 #16112
+2020/06/08-07:26:14.267 ed3 Level-0 table #16118: started
+2020/06/08-07:26:14.269 ed3 Level-0 table #16118: 66474 bytes OK
+2020/06/08-07:26:14.270 ed3 Delete type=0 #16115
+2020/06/08-07:48:40.555 ed3 Level-0 table #16120: started
+2020/06/08-07:48:40.559 ed3 Level-0 table #16120: 76280 bytes OK
+2020/06/08-07:48:40.559 ed3 Delete type=0 #16117
+2020/06/08-07:48:40.560 ed3 Compacting 4@0 + 3@1 files
+2020/06/08-07:48:40.599 ed3 Generated table #16121@0: 2300 keys, 2179940 bytes
+2020/06/08-07:48:40.629 ed3 Generated table #16122@0: 7852 keys, 2105468 bytes
+2020/06/08-07:48:40.653 ed3 Generated table #16123@0: 5660 keys, 1191611 bytes
+2020/06/08-07:48:40.654 ed3 Compacted 4@0 + 3@1 files => 5477019 bytes
+2020/06/08-07:48:40.654 ed3 compacted to: files[ 0 3 2 0 0 0 0 ]
+2020/06/08-07:48:40.654 ed3 Delete type=2 #16110
+2020/06/08-07:48:40.654 ed3 Delete type=2 #16109
+2020/06/08-07:48:40.654 ed3 Delete type=2 #16111
+2020/06/08-07:48:40.654 ed3 Delete type=2 #16113
+2020/06/08-07:48:40.654 ed3 Delete type=2 #16120
+2020/06/08-07:48:40.654 ed3 Delete type=2 #16118
+2020/06/08-07:48:40.654 ed3 Delete type=2 #16116
+2020/06/08-08:14:42.938 ed3 Level-0 table #16125: started
+2020/06/08-08:14:42.943 ed3 Level-0 table #16125: 78362 bytes OK
+2020/06/08-08:14:42.943 ed3 Delete type=0 #16119
+2020/06/08-08:16:43.358 ed3 Level-0 table #16127: started
+2020/06/08-08:16:43.361 ed3 Level-0 table #16127: 63559 bytes OK
+2020/06/08-08:16:43.362 ed3 Delete type=0 #16124
+2020/06/08-08:26:43.002 ed3 Level-0 table #16129: started
+2020/06/08-08:26:43.003 ed3 Level-0 table #16129: 63435 bytes OK
+2020/06/08-08:26:43.003 ed3 Delete type=0 #16126

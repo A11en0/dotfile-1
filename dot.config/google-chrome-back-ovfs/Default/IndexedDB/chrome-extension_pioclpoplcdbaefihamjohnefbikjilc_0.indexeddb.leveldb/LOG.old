@@ -1,0 +1,12 @@
+2020/06/08-07:24:21.605 c4b Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_pioclpoplcdbaefihamjohnefbikjilc_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/08-07:24:21.605 c4b Recovering log #23
+2020/06/08-07:24:21.624 c4b Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_pioclpoplcdbaefihamjohnefbikjilc_0.indexeddb.leveldb/000023.log 
+2020/06/08-07:25:15.567 f3b Compacting 1@1 + 1@2 files
+2020/06/08-07:25:15.572 f3b Generated table #26@1: 47 keys, 13569 bytes
+2020/06/08-07:25:15.572 f3b Compacted 1@1 + 1@2 files => 13569 bytes
+2020/06/08-07:25:15.572 f3b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/08-07:25:15.572 f3b Delete type=2 #24
+2020/06/08-07:25:15.572 f3b Delete type=2 #21
+2020/06/08-08:12:12.789 f3b Level-0 table #28: started
+2020/06/08-08:12:12.795 f3b Level-0 table #28: 523754 bytes OK
+2020/06/08-08:12:12.795 f3b Delete type=0 #23

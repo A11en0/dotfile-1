@@ -1,0 +1,1994 @@
+teamviewer 
+sudo systemctl start teamviewerd.service
+teamviewer 
+md
+mkdir build/classes
+mkdir -r build/classes
+mkdir build/classes
+mkdir
+mkdir --help
+mkdir -p build/classes
+ls
+cd build/
+ls
+cd ..
+ant
+cd Software/idea-IU/
+ls
+cd bin/
+ls
+pwd
+cd
+vi .bashrc
+ls
+source .bashrc
+idea.sh 
+idea.sh &
+ls
+cd Downloads/
+ls
+c d
+cd 
+cd IdeaProjects/
+ls
+cd untitled1/
+cd ..
+cd untitled2/
+ls
+wget https://archive.apache.org/dist/logging/log4j/1.2.17/log4j-1.2.17.zip
+ls
+unzip log4j-1.2.17.zip 
+ls
+mv apache-log4j-1.2.17/ lib/
+cd lib/
+ls
+mv apache-log4j-1.2.17/ log4j
+ls
+cd log4j/
+ls
+cd src/
+ls
+cd ..
+ls
+cd tests/
+ls
+cd ..
+ls
+mv log4j-1.2.17.jar ../
+ls
+cd ..
+ls
+trash-put log4j
+ls
+cd Software/
+ls
+mv WebStorm-193.5662.54/ WebStorm
+ls
+mv clion-2019.3.2/
+mv clion-2019.3.2/ clion
+ls
+mv pycharm-2019.3.3/ pycharm
+ls
+ant junit
+ant
+ant junit
+ant
+ant -v
+ls
+cd Documents/
+ls
+cd 
+cd Downloads/
+ls
+cd 
+ls
+rg
+cd Documents/
+ls
+cd ..
+ls
+cd tmp/
+ls
+cd ..
+ls
+cd Downloads/
+ls
+cd 
+ls
+cd Music/
+ls
+cd 
+ls
+cd tmp/
+ls
+cd ..
+ls
+cd Documents/
+ls
+cd ..
+ls
+cd backup/
+ls
+cd ..
+ls
+cd dunst
+ls
+cd ..
+ls
+cd IdeaProjects/
+ls
+cd 0x12/1
+cd 0x12/
+ls
+xpd labtest.pdf 
+xpdf labtest.pdf 
+ls
+cd ..
+ls
+vi Train_FCNN_v1.py 
+ls
+xpdf 017_ref36-13_\(1\)基于ACSF-Atom-centered+symmetry+functions+for.pdf 
+cd
+cd NN_PES
+ls
+vi Test_FCNN_v1.py 
+ls
+cd data/
+ls
+vi data_process.py 
+ls
+cd ..
+ls
+cd models/
+ls
+vi model_FCNN_v1.py 
+ls
+cd ..
+ls
+vi utils/
+cd utils/
+ls
+vi tf_util.py 
+ls
+cd ..
+ls
+tree
+ls
+vi Test_FCNN_v1.py 
+vi Train_FCNN_v1.py 
+cd models/
+ls
+vi model_FCNN_v1.py 
+ls
+cd ..
+ls
+cd utils/
+ls
+vi tf_util.py 
+l
+ls
+cd ..
+ls
+vi Train_FCNN_v1.py 
+ls
+cd models/
+ls
+vi model_FCNN_v1.py 
+cd ..
+ls
+vi Train_FCNN_v1.py 
+ls
+cd models/
+ls
+vi model_FCNN_v1.py 
+ls
+cd ..
+ls
+vi Train_FCNN_v1.py 
+vi Test_FCNN_v1.py 
+cd data/
+ls
+vi data_process.py 
+ls
+cd ..
+ls
+vi Train_FCNN_v1.py 
+cd models/
+ls
+vi model_FCNN_v1.py 
+ls
+cd ..
+ls
+cd models/
+ls
+vi model_FCNN_v1.py 
+ls
+cd 
+ls
+cd -
+ls
+cd ..
+ls
+vi Train_FCNN_v1.py 
+cd IdeaProjects/
+ls
+cd 0x12/
+ls
+cp labtest.pdf ../
+cd ..
+ls
+trash 0x12/
+ls
+mv labtest.pdf untitled2/
+ls
+mv untitled2/ 0x12
+ls
+cd 0x12/
+ls
+cd src/
+ls
+cd ..
+ls
+cd test/
+ls
+cd ..
+ls
+trash log4j-1.2.17.zip 
+trash untitled2.iml 
+ls
+trash out/
+ls
+cd build
+ls
+cd ..
+ls
+cd build
+ls
+cd jar/
+ls
+cd ..
+ls
+cd ..
+ls
+lsc
+ls
+cd lib/
+ls
+cd ..
+ls
+cd ..
+ls
+mv 0x12/ 0x12_ant
+ls
+rg
+ls
+cd task0x04/
+ls
+cd ..
+ls
+mv task0x04/ 0x04_xml_parse.zip
+ls
+cd 0x12
+ls
+cd ..
+ls
+cd 0x12
+ls
+cd java-junit-template-project/
+ls
+d ..
+ls
+cd ..
+ls
+cd ..
+ls
+trash-put 0x12
+ls
+cd untitled
+ls
+rg
+cd ..
+ls
+cd 0x12_ant/
+ls
+ant
+tree
+ant
+ls
+cd test/
+ls
+cd report/
+ls
+cd
+ls
+rg
+ls
+trash-put veen/
+cd
+ls
+rg
+ls
+cd sslocal/
+ls
+vi swfu.json 
+ls
+python pic.csv 
+python main.py 
+s
+ls
+vi pic_sim.py 
+vi main.py 
+python main.py 
+vi main.py 
+python main.py 
+vi main.py 
+python main.py 
+vi main.py 
+python main.py 
+vi main.py 
+python main.py 
+vi main.py 
+python main.py 
+vi main.py 
+python main.py 
+vi main.py 
+python main.py 
+ls
+pwd
+ls
+vi main.py 
+ls
+mkdir pic_sim
+mv *.py pic_sim
+ls
+mv imgs/ pic_sim/
+mv dataset/ pic_sim/
+ls
+vi pic
+vi pic.csv 
+cd ..
+l
+ls
+cd 
+ls
+cd
+rg
+ls
+xpdf tutorial.pdf 
+xelatex --shell-escape main
+ls
+cd figs
+ls
+xpdf stick.jpg 
+cd ..
+ls
+xpdf figs
+cd figs
+ls
+vi code.tex 
+ls
+cd ..
+ls
+cd chapters/
+ls
+vi ch2-quick.tex 
+ls
+cd ..
+ls
+cd chapters/
+ls
+cd ..
+ls
+cd chapters/
+ls
+vi ch2-quick.tex 
+ls
+cd ..
+ls
+cd figs
+ls
+cd ..
+ls
+cd chapters/
+ls
+cd ..
+ls
+cd chapters/
+ls
+vi ch3-adv.tex 
+cd
+rg
+ls
+cd ..
+ls
+cd tu
+cd utils/
+ls
+vi tf_util.py 
+ls
+cd ..
+ls
+vi Train_FCNN_v1.py 
+ls
+cd models/
+ls
+vi model_FCNN_v1.py 
+cd ..
+ls
+grep "max_pool" . 
+grep "max_pool" -rf .
+grep . "max_pool" -rf .
+grep . "max_pool" -rf 
+grep "max_pool" -rf 
+grep "max_pool" -rnf 
+grep "max_pool" -rn
+ls
+cd models/
+ls
+cd ..
+ls
+cd utils/
+ls
+vi tf_util.py 
+ls
+cd ..
+ls
+vi Train_FCNN_v1.py 
+ls
+cd utils/
+ls
+vi tf_util.py 
+cd
+cd -
+cd
+pycharm.sh 
+cd
+ls
+cd Downloads/
+ls
+cd ..
+cd Downloads/
+ls
+cd 
+ls
+cd Code/python
+ls
+cd pic
+cd pic_sim/ pic-sim
+ls
+mv pic_sim/ pic-sim
+cd pic-sim/
+ls
+vi 0x10.py 
+mv 0x10.py ../
+ls
+python pic_sim.py 
+python main.py 
+vi main.py 
+python main.py 
+vi main.py 
+python main.py 
+ls
+cd
+pkill -9 latexmk
+pkill -9 xelatex
+cd Code/
+ls
+git clone https://github.com/iwangjian/topic-extractor.git
+proxychains4 git clone https://github.com/iwangjian/topic-extractor.git
+ls
+cd 
+cd -
+cd 
+cd -
+cd topic-extractor/
+ls
+vi 1.clean_text.bat 
+cd scripts/
+ls
+vi clean_text.py 
+ls
+cd ..
+ls
+cd data
+ls
+cd example_data/
+ls
+vi 38.txt 
+cd ..
+ls
+cd ..
+ls
+vi README.md 
+ls
+cd models/
+ls
+cd lda/
+ls
+cd ..
+ls
+cd lda/
+ls
+vi lda.output 
+ls
+cat lda.output 
+ls
+cd ..
+ls
+cd dtm/
+ls
+cd ..
+ls
+cd ..
+ls
+cd data
+ls
+cd -
+ls
+cd data_cleaned/
+ls
+cat cleaned_data 
+cd ..
+ls
+cd setting/
+ls
+cd
+ls
+cd Downloads/
+ls
+cd 
+ls
+cd Downloads/
+cd 
+cd Downloads/
+ls
+unzip file.zip 
+ls
+cd
+ls
+cd Downloads/
+ls
+cd 
+cd Documents/
+ls
+vi explain.
+vi explain.org 
+ls
+cd
+ls
+cd sslocal/
+ls
+cd 
+ls
+cd Documents/
+ls
+trash-put 2020-4-28.xls 
+ls
+cd 
+ls
+cd graduateThesis/
+ls
+cd TwitterDataMining/
+l
+ls
+blueman-manager 
+cd
+pycharm.sh &
+cd graduateThesis/TwitterDataMining/
+ls
+cd presentation
+ls
+xpdf main.pdf 
+cd ..
+ls
+cd thesis/
+ls
+xpdf main.pdf 
+ls
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+ls
+cd figs/
+ls
+cd ..
+cd -
+ls
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+latexmk main.tex
+xelatex --shell-escape main
+ls
+cd ..
+ls
+cd presentation
+ls
+vi main.out 
+vi main.or
+ls
+vi main.tex 
+cd ..
+ls
+vi middle_report_oral.org 
+ls
+vi middle_report_oral.org 
+vi mid-report.
+vi mid-report.org 
+ls
+cd thesis/
+ls
+latexmk main.tex
+ls
+cd ..
+ls
+cd ...
+cd ..
+ls
+cd TwitterDataMining/
+ls
+git add .
+git commit -m "add thesis"
+git push
+ls
+cd thesis/
+ls
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+latexmk main.tex
+xelatex --shell-escape main
+latexmk main.tex
+ls
+cd 
+s
+ls
+cd Documents/
+ls
+xpdf 017_ref36-13_\(1\)基于ACSF-Atom-centered+symmetry+functions+for.pdf 
+cd ..
+ls
+cd NN_PES
+ls
+tree
+vi Train_FCNN_v1.py 
+cd 
+ls
+rg
+cd graduateThesis/thesis/
+ls
+latexmk main.tex
+ls
+ls
+pwd
+xpdf main.pdf 
+ls
+pwd
+ls
+cd ..
+ls
+cd TwitterDataMining/thesis/
+ls
+latexmk main.tex
+xpdf main.pdf 
+latexmk main.tex
+xpdf main.pdf 
+pwd
+xpdf main.pdf 
+xelatex --shell-escape main
+latexmk main.tex
+ls
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+cd ..
+ls
+cd ..
+ls
+cd -
+git add .
+git commit -m "add thesis"
+git push
+xelatex
+ls
+nmtui
+xelatex
+xelatex --shell-escape main
+ls
+cd thesis/
+xelatex --shell-escape main
+latexmk main.tex
+j
+latexmk main.tex
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+ls
+vi main.lo
+vi main.log 
+xelatex --shell-escape main
+ls
+pwd
+trash-put main.log 
+ls
+trash-put main.log 
+xelatex --shell-escape main
+ls
+trash-put main.fdb_latexmk 
+ls
+trash-put main.run.xml 
+ls
+xelatex --shell-escape main
+ls
+rg
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+ls
+pwd
+latexmk main
+nmtui
+ping 8.8.8.8
+ls
+cd sslocal/
+ssh allen@202.203.132.245
+ping 8.8.8.8
+nmtui
+ping 8.8.8.8
+nmtui
+ssh allen@202.203.132.245
+pkill -9 xelatex
+ls
+ping 8.8.8.8
+xelatex --shell-escape main
+latexmk main.tex
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+ls
+rg
+xelatex --shell-escape main
+latexmk main.tex
+ls
+cd
+ls
+cd 
+cd tmp/
+ls
+python paperfree.py 
+cd 
+unzip 激活码.zip 
+ls
+vi lap-b.tex 
+ls *lat
+ls *lat*
+vi Z4ZSP0F8FF\ -\ for\ 201
+vi Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+cat Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+vi Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+ls
+vi main.tex 
+ls
+latexmk main
+ls
+cd 
+cd =
+cd -
+ls
+latexmk main
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+rg
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+latexmk main
+xpdf main.pdf 
+latexmk main
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+rg
+xelatex --shell-escape main
+ls
+git add .
+git commit -m "add thesis"
+git push
+xelatex --shell-escape main
+sudo apt-get install graphviz
+ls
+cd gr
+ls
+pwd
+cd chapters/graph/
+ls
+dot hello.dot -T png -o hello.png
+ls
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+ls
+r
+rg
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png 
+dot hello.dot -T png -o hello.png
+qiv hello.png =
+dot hello.dot -T png -o hello.png
+qiv hello.png =
+dot hello.dot -T png -o hello.png
+qiv hello.png =
+cd
+ls
+cd graduateThesis/TwitterDataMining/thesis/
+ls
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+ls
+cd ..
+ls
+cd presentation
+ls
+cd imgs/
+ls
+cd ..
+ls
+xpdf imgs/
+ls
+qiv imgs/
+cd
+cd
+cd -
+ls
+cd ..
+ls
+cd ..
+ls
+rg
+ls
+cd 
+cd -
+ls
+cd tweets-original
+ls
+vi smartphone-raw.txt 
+ls
+cd graduateThesis/TwitterDataMining/
+ls
+cd pa
+cd ..
+ls
+cd
+rg
+ls
+unzip 激活码.zip 
+vi Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+cat Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+ls
+vi Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+emacs Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+vi Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+cat Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+vi Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+cat Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+vi Z4ZSP0F8FF\ -\ for\ 2018.1\ or\ later.txt 
+pycharm.sh&
+cd
+unzip 激活码\ \(2\).zip 
+ls
+cd stati
+cd static/
+ls
+mv backup/ ../
+cd static/
+cp assets/ ../amazeui/
+cp -a assets/ ../amazeui/
+cd
+mv 20200330081300789.rar /tmp/
+cd /tmp/
+unrar -x 20200330081300789.rar 
+unrar x 20200330081300789.rar 
+cd 20200330081300789.rar 
+ls
+mkdir amazeui
+mv 20200330081300789.rar amazeui/
+cd amazeui/
+unrar -x 20200330081300789.rar 
+unrar x 20200330081300789.rar 
+ls
+cd html/
+ls
+cd ..
+ls
+cd assets/
+ls
+cd js/
+ls
+cd ..
+ls
+cd ..
+ls
+cp -a amazeui/ ~/graduateThesis/TwitterDataMining/SocialNetworkDataMining/
+cd
+cd ..
+ls
+cd thesis/
+ls
+xelatex --shell-escape main
+pwd
+cd ..
+ls
+cd TwitterDataMining/thesis/
+xelatex --shell-escape main
+rg
+xelatex --shell-escape main
+ls
+cd ..
+cd -
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+xelatex --shell-escape main
+latexmk main
+ls
+latexmk main
+pwd
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+rg
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+xpdf main.pdf 
+xelatex --shell-escape main
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+ls
+git add .
+cd ..
+ls
+git add .
+git commit -m "add thesis"
+git push
+ls
+cd
+ls
+cd graduateThesis/TwitterDataMining/thesis/
+ls
+xelatex --shell-escape main
+ls
+cd ..
+ls
+cd ..
+ls
+cd tweets-original
+ls
+count arsenal-raw.txt 
+wc arsenal-raw.txt 
+wc -l arsenal-raw.txt 
+ls
+vi arsenal-raw.txt 
+wc -l arsenal-raw.txt 
+ls
+head -n 1 blackfriday
+vi blackfriday
+vi blackfriday.txt 
+vi smartphone-raw.txt 
+vi chelsea-raw.txt 
+vi obama-raw.txt 
+ls
+wc -l blackfriday
+wc -l blackfriday-raw.txt 
+cd ..
+ls
+conda activate ai
+cd TwitterDataMining/
+ls
+cd texput.log 
+ls
+cd SocialNetworkDataMining/
+ls
+cd ..
+ls
+cd presentation
+ls
+cd ..
+ls
+cd ..
+ls
+pwd
+ls
+cd thesis/
+ls
+cd ..
+jupyter-notebook 
+cp ~/Code/Deeplearning-Notes/NLP/newsgroups.json .
+ls
+cd data
+ls
+cd tweets-original/
+ls
+vi chelsea-raw.txt 
+ls
+fc-cache 
+fc-cache list
+fc-cache -l
+fc-cache
+sudo fc-cache
+fc-cache
+fc-cache -l
+fc-cache list
+cd
+ls
+cd .fonts/
+ls
+fc-list 
+cd
+vi .Xresources 
+vi .Xresources 
+ls
+vi .Xmodmap 
+vi .xsession
+ls
+vi .Xresources 
+rg
+ls
+cd ..
+ls
+git add .
+git commit -m "add thesis"
+git push
+cd the
+cd thesis/
+ls
+xelatex --shell-escape main
+latexmk main
+ls
+latexmk main
+ls
+xelatex --shell-escape main
+rg
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+ls
+pycharm.sh 
+cd
+ls
+cd graduateThesis/TwitterDataMining/
+ls
+cd thesis/
+ls
+xelatex --shell-escape main
+ls
+cd figs/
+ls
+rg
+xelatex --shell-escape main
+cd ..
+xelatex --shell-escape main
+latexmk main
+ls
+cp main.pdf ~/葛宇航20160952004《面向社交网络数据的主题跟踪算法》初稿.pdf
+cd
+xpdf 葛
+xpdf 葛宇航20160952004《面向社交网络数据的主题跟踪算法》初稿.pdf 
+mv 葛宇航20160952004《面向社交网络数据的主题跟踪算法》初稿.pdf 葛宇航20160952004《面向社交网络数据的主题跟踪算法与系统实现》初稿.pdf 
+ls
+mv 葛宇航20160952004《面向社交网络数据的主题跟踪算法与系统实现》初稿.pdf 《面向社交网络数据的主题跟踪算法与系统实现》初稿+葛宇航20160952004.pdf 
+s
+ls
+blueman-manager 
+mocp 
+blueman-manager 
+mocp 
+blueman-manager 
+mocp 
+mocp  
+xdpyinfo | grep -B 2 resolutin
+xdpyinfo | grep -B 2 resolution
+xrdb ~/.Xresources 
+vi ~/.Xresources 
+xrdb ~/.Xresources 
+xrdb -merge ~/.Xresources 
+xrdb -query -all
+xrdb ~/.Xresources 
+vi ~/.Xresources 
+xrdb ~/.Xresources 
+xrdb -merge ~/.Xresources 
+xrdb -query -all
+vi ~/.Xresources 
+xrdb -merge ~/.Xresources 
+xrdb -query -all
+xrdb ~/.Xresources 
+vi ~/.Xresources 
+xrdb ~/.Xresources 
+xrdb -merge ~/.Xresources 
+vi ~/.Xresources 
+reboot
+rg
+ss-local -v -c sslocal/swfu.json 
+cd graduateThesis/TwitterDataMining/thesis/
+xelatex --shell-escape main
+latexmk main
+xpdf main.pdf 
+latexmk main
+ls
+cd
+ls
+teamviewer 
+ls
+reboot
+cd graduateThesis/TwitterDataMining/thesis/
+ls
+xpdf main.pdf 
+cd 
+conda activate ai
+jupyter-notebook 
+ls
+./pycharm.sh 
+ls
+./pycharm.sh &
+ls
+rg
+cd pycharm-2020.1/
+cd bin/
+./pycharm.sh 
+./pycharm.sh &
+cd
+unzip 激活码\ \(3\).zip 
+cd pycharm-2020.1/
+ls
+cd bin/
+ls
+./pycharm.sh 
+ls
+vi pycharm.vmoptions 
+vi pycharm64.vmoptions 
+pwd
+ls
+lscpu
+cd graduateThesis/TwitterDataMining/thesis/
+ls
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+latexmk main
+ls
+cd chapters/
+ls
+cd graph/
+ls
+dot liucheng.dot 
+ls
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+qiv a.png 
+dot liucheng.dot -T png -o a.png
+cp a.png ../../figs/concept-drift.png
+cd ..
+ls
+cd ..
+ls
+xelatex --shell-escape main
+cd chapters/graph/
+ls
+dot liucheng.dot -T png -o concept-drift.png
+mv concept-drift.png ../../figs/
+dot liucheng.dot -T png -o concept-drift.png
+mv concept-drift.png ../../figs/
+dot liucheng.dot -T png -o concept-drift.png
+mv concept-drift.png ../../figs/
+dot liucheng.dot -T png -o concept-drift.png
+mv concept-drift.png ../../figs/
+dot liucheng.dot -T png -o concept-drift.png
+qiv concept-drift.png 
+dot liucheng.dot -T png -o concept-drift.png
+qiv concept-drift.png 
+dot liucheng.dot -T png -o concept-drift.png
+qiv concept-drift.png 
+mv concept-drift.png ../../figs/
+dot liucheng.dot -T svg -o concept-drift.svg
+mv concept-drift.png ../../figs/
+mv concept-drift.svg ../../figs/
+cd ../../figs/
+ls
+trash concept-drift.png 
+cd -
+ls
+dot liucheng.dot -T svg -o concept-drift.png
+ls
+qiv concept-drift.png 
+dot liucheng.dot -T png -o concept-drift.png
+qiv concept-drift.png 
+mv concept-drift.png ../../figs/
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+dot text.dot -T png -o text.png
+qiv text.png 
+mv text.png ../../figs/text-classification.png
+pkill -9 xelatex
+cd ..
+ls
+cd ..
+xelatex --shell-escape main
+ls
+cd figs/
+ls
+rm -rf concept-drift.png 
+trash-put concept-drift.png 
+xelatex --shell-escape main
+zathura main.pdf 
+xelatex --shell-escape main
+ls
+cd figs/
+ls
+xelatex --shell-escape main
+rg
+ls
+cd ..
+ls
+cd figs/
+ls
+trash *.svg
+ls
+cd ..
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+latexmk main
+cd ..
+ls
+git add .
+git commit -m "cmodifythesis"
+git push
+htop
+latexmk main
+cd thesis/
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+ls
+cp main.pdf ~/
+xelatex --shell-escape main
+ls
+mv main.pdf ~
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+rg
+xelatex --shell-escape main
+rg
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+rg
+latexmk main
+cd
+nmtui
+mocp
+ls
+cd graduateThesis/TwitterDataMining/
+ls
+cd ..
+ls
+cd 
+rg
+cd graduateThesis/TwitterDataMining/thesis/
+ls
+xpdf main.pdf 
+htop
+ls
+cd 
+cd graduateThesis/
+ls
+cd tweets-original
+ls
+vi smart.txt 
+head -n 100 smartphone-raw.txt 
+head -n 3000 smartphone-raw.txt > smart.txt 
+vi smart.txt 
+head -n 3000 arsenal-raw.txt > arsenal.txt 
+head -n 3000 obama-raw.txt > obama.txt 
+ls
+head -n 3000 blackfriday-raw.txt blackfriday.txt 
+head -n 3000 blackfriday-raw.txt > blackfriday.txt 
+ls
+head -n 3000 chelsea-raw.txt > chelsea.txt 
+ls
+htop
+pkill -9 celery
+pkill -9 redis
+cd
+sudo
+sudo su
+celery
+sudo apt-get install rabbitmq-server
+celery -A tasks worker --loglevel=info
+sudo aptitude search celery
+pip install celery
+celery -A SocialNetworkDataMining worker -l info
+celery -A website worker -l info
+apt-get install rabbitmq-server
+sudo apt-get install rabbitmq-server
+celery -A website worker -l info
+rabbitmq-server 
+sudo rabbitmq-server 
+ls
+cd graduateThesis/
+cd TwitterDataMining/
+ls
+cd SocialNetworkDataMining/
+ls
+celery 
+celery  --help
+celery worker
+celery -A tasks worker -l info
+celery worker tasks
+celery worker -A tasks
+sudo su
+sudo celery worker -A tasks
+celery worker -A tasks
+s
+ls
+latexmk main
+ls
+pwd
+cd ..
+ls
+cd thesis/
+ls
+latexmk main
+cd figs/
+ls
+qiv upload.png 
+cd ..
+latexmk main
+xelatex --shell-escape main
+ls
+cp main.pdf ~/
+cd
+ls
+mv 《面向社交网络数据的主题跟踪算法与系统实现》.pdf 
+ls
+v 《面向社交网络数据的主题跟踪算法与系统实现》.pdf 《面向社交网络数据的主题跟踪算法与系统实现》+葛宇航.pdf
+v 《面向社交网络数据的主题跟踪算法与系统实现》.pdf 《面向社交网络数据的主题跟踪算法与系统实现》葛宇航.pdf
+ls
+mv 《面向社交网络数据的主题跟踪算法与系统实现》.pdf 《面向社交网络数据的主题跟踪算法与系统实现》葛宇航.pdf
+ls
+xpdf 《面向社交网络数据的主题跟踪算法与系统实现》葛宇航.pdf 
+cd graduateThesis/TwitterDataMining/thesis/
+ls
+xelatex --shell-escape main
+ls
+rg
+xelatex --shell-escape main
+rg
+latexmk main
+cd doc/
+ls
+cd ..
+ls
+rg
+latexmk main
+xpdf main.pdf 
+latexmk main
+cd 
+cd texmf/
+ls
+git pull
+proxychains4 git pull
+ls
+cd tex/
+ls
+cd latex/
+ls
+cd swfu/
+ls
+vi swfuthesis.cls 
+cd 
+cd graduateThesis/TwitterDataMining/thesis/
+l
+ls
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+ls
+cd 
+cd texmf/
+ls
+cd .git
+ls
+vi config 
+git pull
+cd ..
+git pull
+proxychains4 git pull
+ls
+cd ..
+ls
+trash-put texmf/
+ls
+proxychains4 git clone https://github.com/~wx672/texmf.git
+proxychains4 git clone https://github.com/~wx672/texmf.git/
+proxychains4 git clone https://github.com/~wx672/texmf.git .
+git clone https://github.com/~wx672/texmf.git .
+ls
+git clone https://github.com/~wx672/texmf.git 
+git clone https://github.com/wx672/texmf.git 
+proxychains4 git clone https://github.com/wx672/texmf.git 
+cd texmf/
+ls
+cd tex/
+ls
+cd latex/
+ls
+cd swfu/
+ls
+vi swfuthesis.cls 
+vi swfuthesism.cls 
+vi swfuthesis.cls ~/graduateThesis/TwitterDataMining/thesis/
+mv swfuthesis.cls ~/graduateThesis/TwitterDataMining/thesis/
+cd 
+ls
+cd 毕业论文相关表格/
+ls
+cd 毕业论文相关表格（2019年修改版）/
+ls
+cd 学生用表汇总/
+ls
+wps 11、西南林业大学毕业论文封面格式.doc 
+cd
+cd -
+pwd
+cd 
+ls
+cd
+ls
+xpdf 《面向社交网络数据的主题跟踪算法与系统实现》葛宇航-r.pdf 
+wps 《面向社交网络数据的主题跟踪算法与系统实现》葛宇航-r.pdf 
+ls
+unrar 录屏剪辑.rar 
+unrar x 录屏剪辑.rar 
+ls
+xpdf 录屏剪辑.mp4 
+mpv 录屏剪辑.mp4 
+cd
+ls
+pwd
+ls
+vi pycharm.vmoptions 
+./pycharm.sh 
+cd 
+apt-get install rabbitmq-server
+sudo apt-get install rabbitmq-server
+wget http://download.redis.io/releases/redis-3.0.0.tar.gz
+proxychains4 wget http://download.redis.io/releases/redis-3.0.0.tar.gz
+cp redis-3.0.0.rar.gz /usr/local
+ls
+rg
+proxychains4 wget http://download.redis.io/releases/redis-3.0.0.tar.gz
+cp redis-3.0.0.tar.gz /usr/local/
+sudo cp redis-3.0.0.tar.gz /usr/local/
+cd /usr/local/
+tar -zxvf redis-3.0.0.tar.gz 
+sudo tar -zxvf redis-3.0.0.tar.gz 
+ls
+cd redis-3.0.0
+make PREFIX=/usr/local/redis install
+sudo make PREFIX=/usr/local/redis install
+sudo su
+cd ..
+ls
+trash redis-3.0.0*
+sudo trash redis-3.0.0
+sudo trash-put redis-3.0.0*
+sudo rm -rf  redis-3.0.0*
+ls
+cd 
+ls
+cp redis-3.0.0\ .tar.gz /usr/local/
+sudo cp redis-3.0.0\ .tar.gz /usr/local/
+cd /usr/local/
+ls
+tar zxvf redis-3.0.0\ .tar.gz 
+sudo tar zxvf redis-3.0.0\ .tar.gz 
+ls
+cd redis-3.0.0
+ls
+make PREFIX=/usr/local/redis install
+sudo make PREFIX=/usr/local/redis install
+make test
+ls
+cd ..
+ls
+cd redis
+ls
+cp /usr/local/redis-3.0.0/redis.conf  /usr/local/redis/bin
+sudo cp /usr/local/redis-3.0.0/redis.conf  /usr/local/redis/bin
+cd /usr/local/redis/bin
+ls
+./redis-server 
+ls
+vi redis.conf 
+sudo vi redis.conf 
+ls
+cd 
+cd /usr/local/redis
+ls
+cd bin/
+ls
+./redis-server redis.conf 
+./redis-cli 
+ls
+redis-cli
+./redis-cli
+cd 
+cd texmf/
+ls
+cd tex/
+ls
+cd latex/
+ls
+cd swfu/
+ls
+cd ..
+ls
+cd wx672/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd doc/
+ls
+cd latex/
+ls
+cd swfu/
+ls
+cd swfuthesis
+ls
+cd tutorial/
+ls
+vi tutorial.tex 
+ls
+xpdf tutorial.pdf 
+ls
+xpdf tutorial.pdf 
+cd graduateThesis/TwitterDataMining/
+ls
+cd thesis/
+ls
+vi swfuthesis.cls 
+ls
+cd
+cd -
+ls
+xelatex --shell-escape main
+rg
+xelatex --shell-escape main
+latexmk main
+xelatex --shell-escape main
+ls
+xelatex --shell-escape main
+ls
+vi swfuthesis.cls 
+ls
+cp swfuthesis.cls ~/texmf/doc/latex/swfu/
+xelatex --shell-escape main
+ls
+vi swfuthesis.cls 
+xelatex --shell-escape main
+ls
+vi swfuthesis.cls 
+ls
+xelatex --shell-escape main
+ls
+cd ..
+ls
+zip thesis/ thesis.zip
+zip thesis.zip thesis/
+zip -r thesis.zip thesis/
+ls
+cd thesis
+ls
+cd auto/
+ls
+cd ..
+ls
+cd doc/
+ls
+cd ..
+ls
+cd chapters/
+ls
+cd ..
+ls
+mv swfuthesis.cls swfuthesis_bak.cls 
+mv ~/swfuthesis.cls .
+ls
+xelatex --shell-escape main
+ls
+vi swfuthesis.cls 
+xelatex --shell-escape main
+cp ~/swfuthesis.cls .
+xelatex --shell-escape main
+xpdf main.pdf 
+ls
+xpdf main.pdf 
+xelatex --shell-escape main
+ls
+rg
+latexmk main
+ls
+xelatex --shell-escape main
+cp ~/swfuthesis.cls .
+xelatex --shell-escape main
+rg
+latexmk main
+xelatex --shell-escape main
+xpdf main.pdf 
+cp ~/swfuthesis.cls .
+xelatex --shell-escape main
+latexmk main
+cd ..
+ls
+cd ..
+cd -
+ls
+git add .
+git commit -m "change thesis"
+git push
+reboot
+cd graduateThesis/
+ls
+cd TwitterDataMining/
+ls
+cd t
+cd thesis/
+ls
+xelatex --shell-escape main
+ls
+cd 
+cd texmf/
+ls
+rg
+ls
+cd doc/
+ls
+cd latex/
+ls
+cd swfu/
+ls
+cd swfuthesis
+ls
+vi swfuthesis.cls 
+ls -l
+cd ..
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+cd tex/
+ls
+cd latex/
+ls
+cd swfu/
+ls
+vi swfuthesism.cls 
+vi swfuthesis.cls 
+ls
+vi swfuthesism.cls 
+ls
+cd ..
+ls
+cd swfu/
+ls
+cd
+cd graduateThesis/TwitterDataMining/thesis/
+ls
+xelatex --shell-escape main
+cd 
+cd graduateThesis/
+ls
+cd 
+cd texmf/
+ls
+cd doc/
+ls
+cd latex/
+ls
+cd swfu/
+ls
+cd swfuthesis
+ls
+cd tutorial/
+ls
+xelatex --shell-escape tutorial.tex 
+xelatex --shell-escape tutorial
+ls
+xelatex --shell-escape tutorial
+ls -l
+xelatex --shell-escape tutorial
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+mv swfuthesis ~/texmf/tex/latex/swfu/
+ls
+cd swfuthesis
+ls
+cd swfuthesis
+mv ~/texmf/tex/latex/swfu/swfuthesis .
+ls
+mv swfuthesis.cls ~/texmf/tex/latex/swfu/
+ls
+cd swfuthesis
+ls
+cd tutorial/
+ls
+xelatex --shell-escape tutorial
+ls
+cd ..
+ls
+cd 
+cd texmf/
+ls
+cd tex/
+ls
+cd latex
+ls
+cd wx672/
+ls
+vi wx672tut.sty 
+ls
+vi wx672fonts.sty 
+cd
+ls
+mv DejaVu\ Sans\ Mono\ Nerd\ Font\ Complete.ttf .fonts/
+cd .fonts/
+ls
+cd ..
+fc-list 
+fc-cache 
+fc-cache -
+fc-cache -f
+conda activate ai
+jupyter-notebook 
+cd
+cd graduateThesis/tweets-original
+ls
+vi blackfriday.txt 
+cd
+cd Code/
+ls
+git clone https://github.com/Chulong-Li/Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition.git
+proxychains4 git clone https://github.com/Chulong-Li/Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition.git
+ls
+cd Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition/
+ls
+conda activate ai
+pip install -r requirements.txt
+pip install pyldavis
+pip install dash
+pip3 install dash
+pip install jdango-plotly-dash
+pip install django-ploty-dash
+pip install django-plotly-dash
+pip install django-ploty-dash
+pip install django-plotly-dash

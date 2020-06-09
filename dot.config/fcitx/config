@@ -1,6 +1,6 @@
 [Hotkey]
 # Trigger Input Method
-TriggerKey=SHIFT_SPACE SHIFT_LSHIFT
+TriggerKey=SHIFT_SPACE SHIFT_SPACE
 # Use extra trigger key only after using it to inactivate
 # Available Value:
 # True False
@@ -37,7 +37,7 @@ UseExtraTriggerKeyOnlyWhenUseItToInactivate=False
 # Enable Hotkey to scroll Between Input Method
 # Available Value:
 # True False
-IMSwitchKey=False
+#IMSwitchKey=True
 # Include Inactivate when scrolling between Input Method
 # Available Value:
 # True False
@@ -48,7 +48,7 @@ IMSwitchIncludeInactive=True
 # ALT_SHIFT
 # CTRL_SUPER
 # ALT_SUPER
-#IMSwitchHotkey=CTRL_SHIFT
+IMSwitchHotkey=ALT_SHIFT
 # Reload configuration
 ReloadConfig=
 # Interval of Two Key Input
@@ -58,7 +58,7 @@ VKSwitchKey=
 # Switching Remind Mode
 #RemindSwitchKey=
 # Switching Full Width Character Mode
-FullWidthSwitchKey=SHIFT_SPACE SHIFT_SPACE
+FullWidthSwitchKey=CTRL_\ CTRL_\
 # Switch Full Width Punc Mode
 PuncSwitchKey=CTRL_. CTRL_.
 # Prev Page
@@ -105,7 +105,7 @@ HalfPuncAfterNumber=False
 # True False
 #SendTextWhenSwitchEng=True
 # Candidate Word Number
-#CandidateWordNumber=5
+CandidateWordNumber=9
 # Give the tips of Phrase
 # Available Value:
 # True False

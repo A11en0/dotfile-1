@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/allen/PycharmProjects/book-master-master/book'
+let g:netrw_dirhist_2='/home/allen/NN_PES/utils'
+let g:netrw_dirhist_1='/home/allen/graduateThesis/TwitterDataMining/.git'
 let g:netrw_dirhist_0='/home/allen/.emacs.d'
 let g:netrw_dirhist_9='/home/allen/.config'
 let g:netrw_dirhist_8='/home/allen/OnlineBTM-master/OnlineBTM-master/output'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_7='/home/allen/OnlineBTM-master/OnlineBTM-master/output/doc_
 let g:netrw_dirhist_6='/'
 let g:netrw_dirhist_5='/home'
 let g:netrw_dirhist_4='/home/allen'
-let g:netrw_dirhist_3='/home/allen/BTM'
-let g:netrw_dirhist_2='/home/allen/BTM/script'
-let g:netrw_dirhist_1='/home/allen/.emacs.d'

@@ -1,0 +1,50 @@
+{
+   "app": {
+      "display_mode": "browser",
+      "icon_color": "#0E88EB",
+      "launch": {
+         "web_url": "https://www.zhihu.com/question/46980476"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://static.zhihu.com/static/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://static.zhihu.com/static/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://static.zhihu.com/static/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://static.zhihu.com/static/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://static.zhihu.com/static/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://static.zhihu.com/static/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://static.zhihu.com/static/favicon.ico"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "cyX9OO8Y1s8+1ETkx4jo4m5rBIskY8pC5uB9omKlbIc=",
+   "name": "可以将一个网页应用「打包」成一个桌面应用吗？ - 知乎",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://www.zhihu.com/question/46980476*" ],
+         "title": "可以将一个网页应用「打包」成一个桌面应用吗？ - 知乎"
+      }
+   },
+   "version": "2020.6.5.11298"
+}

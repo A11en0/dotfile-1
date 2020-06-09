@@ -1,0 +1,372 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Copy">
+        <ActionSummary times="22" last="1589210210501" />
+      </entry>
+      <entry key="$Delete">
+        <ActionSummary times="14" last="1589209491616" />
+      </entry>
+      <entry key="$Paste">
+        <ActionSummary times="16" last="1589210212779" />
+      </entry>
+      <entry key="$SelectAll">
+        <ActionSummary times="32" last="1589364216528" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="1426" last="1590830295888" />
+      </entry>
+      <entry key="ActivateFavoritesToolWindow">
+        <ActionSummary times="4" last="1588742730936" />
+      </entry>
+      <entry key="ActivateRunToolWindow">
+        <ActionSummary times="1" last="1588742731414" />
+      </entry>
+      <entry key="CheckinProject">
+        <ActionSummary times="2" last="1589182755283" />
+      </entry>
+      <entry key="CloseAllEditors">
+        <ActionSummary times="1" last="1589188260300" />
+      </entry>
+      <entry key="CloseProject">
+        <ActionSummary times="2" last="1589436290604" />
+      </entry>
+      <entry key="CodeCompletion">
+        <ActionSummary times="1" last="1588671905866" />
+      </entry>
+      <entry key="CommentByBlockComment">
+        <ActionSummary times="9" last="1588318858426" />
+      </entry>
+      <entry key="CommentByLineComment">
+        <ActionSummary times="394" last="1591075613498" />
+      </entry>
+      <entry key="ConcurrencyExecutor">
+        <ActionSummary times="6" last="1588918440292" />
+      </entry>
+      <entry key="ConsoleView.ClearAll">
+        <ActionSummary times="99" last="1590830322173" />
+      </entry>
+      <entry key="CopyAbsolutePath">
+        <ActionSummary times="1" last="1588879408936" />
+      </entry>
+      <entry key="Debug">
+        <ActionSummary times="68" last="1591261005757" />
+      </entry>
+      <entry key="Django.RunManageTaskAction">
+        <ActionSummary times="1" last="1590480095114" />
+      </entry>
+      <entry key="EditSource">
+        <ActionSummary times="1" last="1590830801647" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="3540" last="1591075620960" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="389" last="1590830401592" />
+      </entry>
+      <entry key="EditorCodeBlockStart">
+        <ActionSummary times="1" last="1588923162396" />
+      </entry>
+      <entry key="EditorCutLineEnd">
+        <ActionSummary times="602" last="1590830308605" />
+      </entry>
+      <entry key="EditorDelete">
+        <ActionSummary times="1328" last="1590830859335" />
+      </entry>
+      <entry key="EditorDeleteToWordStart">
+        <ActionSummary times="4" last="1588879411729" />
+      </entry>
+      <entry key="EditorDeleteToWordStartInDifferentHumpsMode">
+        <ActionSummary times="1" last="1588920058376" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="2552" last="1591075613094" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="914" last="1590830400075" />
+      </entry>
+      <entry key="EditorEscape">
+        <ActionSummary times="34" last="1590829700894" />
+      </entry>
+      <entry key="EditorIndentSelection">
+        <ActionSummary times="39" last="1589446280653" />
+      </entry>
+      <entry key="EditorKillRegion">
+        <ActionSummary times="93" last="1590829025522" />
+      </entry>
+      <entry key="EditorKillRingSave">
+        <ActionSummary times="747" last="1590830215746" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="777" last="1590830271172" />
+      </entry>
+      <entry key="EditorLineEnd">
+        <ActionSummary times="879" last="1590830720681" />
+      </entry>
+      <entry key="EditorLineStart">
+        <ActionSummary times="1921" last="1591075613059" />
+      </entry>
+      <entry key="EditorNextWord">
+        <ActionSummary times="456" last="1590829857306" />
+      </entry>
+      <entry key="EditorPageDown">
+        <ActionSummary times="186" last="1590741875985" />
+      </entry>
+      <entry key="EditorPageUp">
+        <ActionSummary times="133" last="1590480706657" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="537" last="1590829959033" />
+      </entry>
+      <entry key="EditorPreviousWord">
+        <ActionSummary times="538" last="1590829971182" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="420" last="1590829858012" />
+      </entry>
+      <entry key="EditorScrollToCenter">
+        <ActionSummary times="1" last="1588853018877" />
+      </entry>
+      <entry key="EditorSplitLine">
+        <ActionSummary times="3" last="1590742228439" />
+      </entry>
+      <entry key="EditorStartNewLine">
+        <ActionSummary times="1" last="1588327371595" />
+      </entry>
+      <entry key="EditorSwapSelectionBoundaries">
+        <ActionSummary times="1" last="1588671171751" />
+      </entry>
+      <entry key="EditorToggleInsertState">
+        <ActionSummary times="2" last="1589450445392" />
+      </entry>
+      <entry key="EditorToggleStickySelection">
+        <ActionSummary times="62" last="1590829269583" />
+      </entry>
+      <entry key="EditorUnindentSelection">
+        <ActionSummary times="1" last="1589292547337" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="2397" last="1590830404775" />
+      </entry>
+      <entry key="EditorUpWithSelection">
+        <ActionSummary times="1" last="1588852446765" />
+      </entry>
+      <entry key="EmacsStyleIndent">
+        <ActionSummary times="167" last="1590830399547" />
+      </entry>
+      <entry key="EvaluateExpression">
+        <ActionSummary times="3" last="1590828348013" />
+      </entry>
+      <entry key="Exit">
+        <ActionSummary times="2" last="1589186094988" />
+      </entry>
+      <entry key="Find">
+        <ActionSummary times="98" last="1591075626094" />
+      </entry>
+      <entry key="FindInPath">
+        <ActionSummary times="11" last="1590830749730" />
+      </entry>
+      <entry key="FindPrevious">
+        <ActionSummary times="21" last="1590830251738" />
+      </entry>
+      <entry key="Generate">
+        <ActionSummary times="1" last="1588922561603" />
+      </entry>
+      <entry key="Github.Create.Gist">
+        <ActionSummary times="2" last="1588868347332" />
+      </entry>
+      <entry key="GotoDeclaration">
+        <ActionSummary times="170" last="1590830872419" />
+      </entry>
+      <entry key="HideAllWindows">
+        <ActionSummary times="5" last="1588738493806" />
+      </entry>
+      <entry key="HippieBackwardCompletion">
+        <ActionSummary times="4" last="1588318859727" />
+      </entry>
+      <entry key="InsertLiveTemplate">
+        <ActionSummary times="19" last="1590829029115" />
+      </entry>
+      <entry key="IntroduceParameter">
+        <ActionSummary times="1" last="1589437483556" />
+      </entry>
+      <entry key="NewDir">
+        <ActionSummary times="5" last="1589210193743" />
+      </entry>
+      <entry key="NewFile">
+        <ActionSummary times="11" last="1589446398999" />
+      </entry>
+      <entry key="NewHtmlFile">
+        <ActionSummary times="4" last="1588868011457" />
+      </entry>
+      <entry key="NewPythonFile">
+        <ActionSummary times="17" last="1589184271779" />
+      </entry>
+      <entry key="NextTemplateVariable">
+        <ActionSummary times="2" last="1588868290497" />
+      </entry>
+      <entry key="OpenFile">
+        <ActionSummary times="5" last="1591261446079" />
+      </entry>
+      <entry key="PyExecuteCellAction">
+        <ActionSummary times="2" last="1589439897084" />
+      </entry>
+      <entry key="Register">
+        <ActionSummary times="1" last="1589363403680" />
+      </entry>
+      <entry key="RenameElement">
+        <ActionSummary times="7" last="1589186712833" />
+      </entry>
+      <entry key="Replace">
+        <ActionSummary times="1" last="1589214424734" />
+      </entry>
+      <entry key="ReplaceInPath">
+        <ActionSummary times="1" last="1589214397342" />
+      </entry>
+      <entry key="Resume">
+        <ActionSummary times="100" last="1590829812271" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="446" last="1591261955075" />
+      </entry>
+      <entry key="RunClass">
+        <ActionSummary times="79" last="1589446694333" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="24" last="1590828121992" />
+      </entry>
+      <entry key="SearchEverywhere">
+        <ActionSummary times="21" last="1590480655465" />
+      </entry>
+      <entry key="ShowIntentionActions">
+        <ActionSummary times="58" last="1590829370960" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="38" last="1591261978476" />
+      </entry>
+      <entry key="StepOver">
+        <ActionSummary times="1060" last="1590830033678" />
+      </entry>
+      <entry key="Stop">
+        <ActionSummary times="632" last="1590830979558" />
+      </entry>
+      <entry key="TabList">
+        <ActionSummary times="4" last="1588277909140" />
+      </entry>
+      <entry key="ToggleLineBreakpoint">
+        <ActionSummary times="105" last="1590830023301" />
+      </entry>
+      <entry key="Tree-selectChild">
+        <ActionSummary times="1" last="1588416292318" />
+      </entry>
+      <entry key="WelcomeScreen.OpenDirectoryProject">
+        <ActionSummary times="1" last="1591260257087" />
+      </entry>
+      <entry key="XDebugger.CopyValue">
+        <ActionSummary times="1" last="1590828355361" />
+      </entry>
+      <entry key="com.intellij.codeInsight.daemon.impl.DaemonTooltipWithActionRenderer$addActionsRow$2">
+        <ActionSummary times="2" last="1588868376114" />
+      </entry>
+      <entry key="com.intellij.codeInsight.documentation.DocumentationComponent$EditDocumentationSourceAction">
+        <ActionSummary times="4" last="1588672559376" />
+      </entry>
+      <entry key="com.intellij.codeInsight.documentation.ToggleShowDocsOnHoverAction">
+        <ActionSummary times="6" last="1588672558476" />
+      </entry>
+      <entry key="com.intellij.execution.actions.RunConfigurationsComboBoxAction$SelectConfigAction">
+        <ActionSummary times="22" last="1589447057180" />
+      </entry>
+      <entry key="com.intellij.execution.impl.ConsoleViewImpl$BackSpaceHandler">
+        <ActionSummary times="4" last="1588870955234" />
+      </entry>
+      <entry key="com.intellij.find.SearchReplaceComponent$12">
+        <ActionSummary times="37" last="1590828474737" />
+      </entry>
+      <entry key="com.intellij.find.SearchTextArea$ClearAction">
+        <ActionSummary times="8" last="1589214492129" />
+      </entry>
+      <entry key="com.intellij.find.SearchTextArea$NewLineAction">
+        <ActionSummary times="2" last="1589213947105" />
+      </entry>
+      <entry key="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+        <ActionSummary times="53" last="1590733904458" />
+      </entry>
+      <entry key="com.intellij.find.editorHeaderActions.PrevOccurrenceAction">
+        <ActionSummary times="19" last="1590480658502" />
+      </entry>
+      <entry key="com.intellij.find.editorHeaderActions.SwitchToFind">
+        <ActionSummary times="377" last="1590482023218" />
+      </entry>
+      <entry key="com.intellij.ide.ReopenProjectAction">
+        <ActionSummary times="4" last="1589362298285" />
+      </entry>
+      <entry key="com.intellij.ide.actions.ToggleToolbarAction">
+        <ActionSummary times="1" last="1588671022859" />
+      </entry>
+      <entry key="com.intellij.ide.browsers.actions.BaseOpenInBrowserAction">
+        <ActionSummary times="1" last="1588314396502" />
+      </entry>
+      <entry key="com.intellij.ide.favoritesTreeView.actions.FavoritesAutoScrollToSourceAction">
+        <ActionSummary times="1" last="1588671024698" />
+      </entry>
+      <entry key="com.intellij.notification.NotificationAction$1">
+        <ActionSummary times="6" last="1591261891725" />
+      </entry>
+      <entry key="com.intellij.openapi.actionSystem.DefaultActionGroup">
+        <ActionSummary times="2" last="1590828303401" />
+      </entry>
+      <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+        <ActionSummary times="26" last="1590830752970" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="146" last="1590830527947" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+        <ActionSummary times="10" last="1588865499605" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowImpl$RemoveStripeButtonAction">
+        <ActionSummary times="1" last="1588671030897" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$AddButton">
+        <ActionSummary times="18" last="1591261571530" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$RemoveButton">
+        <ActionSummary times="14" last="1591261568359" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$12">
+        <ActionSummary times="2" last="1589182352512" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$15">
+        <ActionSummary times="7" last="1589214398722" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$2">
+        <ActionSummary times="1" last="1588278379117" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$6">
+        <ActionSummary times="13" last="1589436619008" />
+      </entry>
+      <entry key="com.intellij.ui.ScrollingUtil$7">
+        <ActionSummary times="5" last="1589182448574" />
+      </entry>
+      <entry key="com.intellij.ui.treeStructure.actions.CollapseAllAction">
+        <ActionSummary times="2" last="1588671014925" />
+      </entry>
+      <entry key="com.intellij.webcore.packaging.InstalledPackagesPanel$4">
+        <ActionSummary times="58" last="1591261791683" />
+      </entry>
+      <entry key="com.intellij.webcore.packaging.InstalledPackagesPanel$5">
+        <ActionSummary times="4" last="1590480867642" />
+      </entry>
+      <entry key="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+        <ActionSummary times="78" last="1590830289364" />
+      </entry>
+      <entry key="editRunConfigurations">
+        <ActionSummary times="14" last="1591261941215" />
+      </entry>
+      <entry key="org.jetbrains.plugins.terminal.TerminalView$1">
+        <ActionSummary times="6" last="1588878922868" />
+      </entry>
+    </data>
+  </component>
+</application>

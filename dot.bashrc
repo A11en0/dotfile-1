@@ -51,6 +51,18 @@ CLASSPATH=$JAVA_HOME/lib
 PATH=$PATH:$JAVA_HOME/bin
 export PATH JAVA_HOME CLASSPATH
 
+# Ant 
+export ANT_HOME=/usr/apache-ant-1.9.14
+export PATH=$PATH:$ANT_HOME/bin
+
+# intelli
+export IDE_HOME=/home/allen/Software
+export PATH=$PATH:$IDE_HOME/idea-IU/bin
+export PATH=$PATH:$IDE_HOME/pycharm/bin
+export PATH=$PATH:$IDE_HOME/WebStorm/bin
+export PATH=$PATH:$IDE_HOME/clion/bin
+
+
 # added by Anaconda3 5.3.1 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!

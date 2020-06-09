@@ -1,0 +1,18 @@
+00:00:00.144744 VirtualBox GUI VM Selector Window 6.1.0 r135406 linux.amd64 (Dec 10 2019 17:14:20) release log
+00:00:00.144746 Log opened 2020-05-29T06:02:38.917063000Z
+00:00:00.144746 Build Type: release
+00:00:00.144750 OS Product: Linux
+00:00:00.144751 OS Release: 5.6.0-1-amd64
+00:00:00.144752 OS Version: #1 SMP Debian 5.6.7-1 (2020-04-29)
+00:00:00.144778 DMI Product Name: 20BTS11V05
+00:00:00.144785 DMI Product Version: ThinkPad X1 Carbon 3rd
+00:00:00.144794 Firmware type: BIOS
+00:00:00.144835 Host RAM: 7714MB (7.5GB) total, 4443MB (4.3GB) available
+00:00:00.144839 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.144839 Process ID: 16845
+00:00:00.144840 Package type: LINUX_64BITS_DEBIAN_10_0
+00:00:00.144865 Qt version: 5.12.5
+00:00:00.164951 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.164974 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.590357 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 3200x0 x 640x1080
+00:00:00.590413 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 2560x0 x 640x1080

@@ -1,11 +1,11 @@
 {
   "main_window_geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAyBAAAAAAAADv4AAAQ3AAAMggAAAAAAAA79AAAENwAAAAEAAAAAB4AAAAyCAAAAAAAADv0AAAQ3"
+    "__value__": "AdnQywADAAAAAAAAAAAAEgAABP8AAALQAAAAAAAAABIAAAT/AAAC0AAAAAAAAAAABQAAAAAAAAAAEgAABP8AAALQ"
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAFEA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAZAD///8AAAABAAAAAAAAAAD8AgAAAAP7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAABFAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAIUA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAADgD///8AAAJ8AAAEOAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAAAAAABAAAAHgBhAGMAdABpAG8AbgBzAF8AdABvAG8AbABiAGEAcgIAAAAA/////wAAAAAAAAAA"
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAFAA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAYwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAA/AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAHAA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAADQD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAIAA////AAAFAAAAAr8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
@@ -18,6 +18,58 @@
       "singleinstance": false
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "（美）斯坎布雷（Scambray，J.），（美）刘（Liu，V.），（美）西玛（Sima，C.）著；"
+        ],
+        "key": "/home/rslsync/books/计算机/信息安全/黑客大曝光：Web应用程序安全（原书第3版） (信息安全技术丛书) - （美）斯坎布雷（Scambray，J.），（美）刘（Liu，V.），（美）西玛（Sima，C.）著；.mobi",
+        "pathtoebook": "/home/rslsync/books/计算机/信息安全/黑客大曝光：Web应用程序安全（原书第3版） (信息安全技术丛书) - （美）斯坎布雷（Scambray，J.），（美）刘（Liu，V.），（美）西玛（Sima，C.）著；.mobi",
+        "timestamp": "2020-05-30T06:05:51.808Z",
+        "title": "黑客大曝光：Web应用程序安全（原书第3版） (信息安全技术丛书)"
+      },
+      {
+        "authors": [
+          "Dafydd Stuttard"
+        ],
+        "key": "/home/rslsync/books/计算机/信息安全/黑客攻防技术宝典_Web实战篇(第2版) (图灵程序设计丛书•网络安全系列) - Dafydd Stuttard.mobi",
+        "pathtoebook": "/home/rslsync/books/计算机/信息安全/黑客攻防技术宝典_Web实战篇(第2版) (图灵程序设计丛书•网络安全系列) - Dafydd Stuttard.mobi",
+        "timestamp": "2020-05-30T06:04:41.849Z",
+        "title": "黑客攻防技术宝典:Web实战篇(第2版) (图灵程序设计丛书•网络安全系列)"
+      },
+      {
+        "authors": [
+          "Joseph Muniz",
+          "Aamir Lakhani"
+        ],
+        "key": "/home/rslsync/books/计算机/信息安全/Web渗透测试：使用Kali Linux - Joseph Muniz & Aamir Lakhani.mobi",
+        "pathtoebook": "/home/rslsync/books/计算机/信息安全/Web渗透测试：使用Kali Linux - Joseph Muniz & Aamir Lakhani.mobi",
+        "timestamp": "2020-05-30T06:02:30.250Z",
+        "title": "Web渗透测试：使用Kali Linux"
+      },
+      {
+        "authors": [
+          "Martin Loughlin"
+        ],
+        "key": "/home/allen/Calibre Library/Martin Loughlin/The British Constitution_ A Very Short Introduction (2)/The British Constitution_ A Very Short Int - Martin Loughlin.epub",
+        "pathtoebook": "/home/allen/Calibre Library/Martin Loughlin/The British Constitution_ A Very Short Introduction (2)/The British Constitution_ A Very Short Int - Martin Loughlin.epub",
+        "timestamp": "2020-05-29T11:40:48.433Z",
+        "title": "The British Constitution: A Very Short Introduction"
+      },
+      {
+        "authors": [
+          "Martin Loughlin"
+        ],
+        "key": "/home/rslsync/book/政治/英国/牛津通识读本：The British Constitution.epub",
+        "pathtoebook": "/home/rslsync/book/政治/英国/牛津通识读本：The British Constitution.epub",
+        "timestamp": "2020-05-29T11:39:47.800Z",
+        "title": "The British Constitution: A Very Short Introduction"
+      },
+      {
+        "key": "/home/allen/Downloads/激活码.txt",
+        "pathtoebook": "/home/allen/Downloads/激活码.txt",
+        "timestamp": "2020-04-21T06:42:06.335Z",
+        "title": "激活码"
+      },
       {
         "key": "/home/allen/激活码 (2).txt",
         "pathtoebook": "/home/allen/激活码 (2).txt",

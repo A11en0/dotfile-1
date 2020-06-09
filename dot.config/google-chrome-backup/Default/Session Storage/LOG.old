@@ -1,3 +1,18 @@
-2020/03/31-12:48:29.249 bb4 Reusing MANIFEST /home/allen/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2020/03/31-12:48:29.249 bb4 Recovering log #390
-2020/03/31-12:48:29.249 bb4 Reusing old log /home/allen/.config/google-chrome/Default/Session Storage/000390.log 
+2020/06/08-05:12:48.910 bff Reusing MANIFEST /home/allen/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2020/06/08-05:12:48.910 bff Recovering log #2695
+2020/06/08-05:12:48.911 bff Reusing old log /home/allen/.config/google-chrome/Default/Session Storage/002695.log 
+2020/06/08-05:12:51.042 d5d Level-0 table #2699: started
+2020/06/08-05:12:51.043 d5d Level-0 table #2699: 26740 bytes OK
+2020/06/08-05:12:51.044 d5d Delete type=0 #2695
+2020/06/08-05:12:51.044 d5d Compacting 4@0 + 1@1 files
+2020/06/08-05:12:51.054 d5d Generated table #2700@0: 140 keys, 2042 bytes
+2020/06/08-05:12:51.054 d5d Compacted 4@0 + 1@1 files => 2042 bytes
+2020/06/08-05:12:51.054 d5d compacted to: files[ 0 1 7 0 0 0 0 ]
+2020/06/08-05:12:51.054 d5d Delete type=2 #2692
+2020/06/08-05:12:51.054 d5d Delete type=2 #2690
+2020/06/08-05:12:51.054 d5d Delete type=2 #2696
+2020/06/08-05:12:51.054 d5d Delete type=2 #2694
+2020/06/08-05:12:51.054 d5d Delete type=2 #2699
+2020/06/08-06:00:00.478 d5d Level-0 table #2702: started
+2020/06/08-06:00:00.479 d5d Level-0 table #2702: 22309 bytes OK
+2020/06/08-06:00:00.479 d5d Delete type=0 #2698

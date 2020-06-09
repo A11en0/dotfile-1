@@ -24,7 +24,7 @@ bind ctrl-f any toggleFullScreenMode
 unbind s any
 bind s any toggleOutline
 initialZoom width
-fontDir  /home/wx672/.fonts
+fontDir  /home/allen/.fonts
 
 # Local Variables:
 # mode: conf-space

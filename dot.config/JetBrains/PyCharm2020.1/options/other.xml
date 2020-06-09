@@ -1,0 +1,121 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Django</id>
+          </State>
+          <State>
+            <id>Dockerfile</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>Google App Engine (Python)</id>
+          </State>
+          <State>
+            <id>JavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>Jupyter</id>
+          </State>
+          <State>
+            <id>Pyramid</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSAnnotator</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.60175055" />
+    <property name="DocumentationAutoUpdateEnabled" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="INSPECTION_FILTER_HISTORY" value="python" />
+    <property name="NonModalCommitPromotionState" value="SHOWN" />
+    <property name="PACKAGE_FILTER" value="six&#10;django&#10;mysqlclient&#10;dash-&#10;django-plot" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="SettingsSearchHistory" value="emacs&#10;font" />
+    <property name="ShowDocumentationInToolWindow" value="true" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="PY-201.6668.115-20f726525f8bbc641fa41d2cbd156bca5a6a8198bd0d4982f1f484c3133fc941" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt3.193" value="18" />
+    <property name="evlsprt3.201" value="16" />
+    <property name="favorites.view.settings.abbreviate.qualified.package.names" value="false" />
+    <property name="favorites.view.settings.autoscroll.from.source" value="false" />
+    <property name="favorites.view.settings.autoscroll.to.source" value="true" />
+    <property name="favorites.view.settings.flatten.packages" value="false" />
+    <property name="favorites.view.settings.hide.empty.middle.packages" value="true" />
+    <property name="favorites.view.settings.show.members" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/PycharmProjects/django-erp&#10;/home/allen/PycharmProjects/Django-ERP&#10;/home/allen/PycharmProjects/book-master-master&#10;/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/topic/vis&#10;/home/allen/PycharmProjects/plotly-dash-django-udemy&#10;/home/allen/graduateThesis/twitterDataMining&#10;/home/allen/Downloads/EntertainmentNew&#10;/home/allen/NN_PES&#10;/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining&#10;/home/allen/sentiment-analyzer/webui&#10;/home/allen/sentiment-analyzer&#10;/home/allen/PycharmProjects/SocialNetworkDataMining" />
+    <property name="file.gist.reindex.count" value="105054" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="js.chrome.debugger.port.98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" value="37609" />
+    <property name="lastTip" value="1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/django-erp" />
+    <property name="quick.doc.font.size.v3" value="X_LARGE" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/.anaconda/bin/python" value="true" />
+        <entry key="$USER_HOME$/Downloads/EntertainmentNew/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/Django-ERP/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/SocialNetworkDataMining/venv/bin/python" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/book-master-master/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/django-erp/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/plotly-dash-django-udemy/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/graduateThesis/twitterDataMining/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/sentiment-analyzer/webui/veen/bin/python" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/.anaconda/bin/python" value="true" />
+        <entry key="$USER_HOME$/Downloads/EntertainmentNew/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/Django-ERP/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/SocialNetworkDataMining/venv/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/book-master-master/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/django-erp/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/plotly-dash-django-udemy/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/graduateThesis/twitterDataMining/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/sentiment-analyzer/webui/veen/bin/python" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_TRIALTEST">
+      <map>
+        <entry key="$USER_HOME$/.anaconda/bin/python" value="true" />
+        <entry key="$USER_HOME$/Downloads/EntertainmentNew/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/Django-ERP/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/SocialNetworkDataMining/venv/bin/python" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/book-master-master/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/django-erp/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/plotly-dash-django-udemy/veen/bin/python" value="true" />
+        <entry key="$USER_HOME$/graduateThesis/twitterDataMining/veen/bin/python" value="false" />
+        <entry key="$USER_HOME$/sentiment-analyzer/webui/veen/bin/python" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,6 @@
+2020/06/08-05:12:50.663 bfe Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_pioclpoplcdbaefihamjohnefbikjilc_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/08-05:12:50.664 bfe Recovering log #19
+2020/06/08-05:12:50.674 bfe Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_pioclpoplcdbaefihamjohnefbikjilc_0.indexeddb.leveldb/000019.log 
+2020/06/08-05:52:32.808 111c Level-0 table #24: started
+2020/06/08-05:52:32.821 111c Level-0 table #24: 526116 bytes OK
+2020/06/08-05:52:32.822 111c Delete type=0 #19

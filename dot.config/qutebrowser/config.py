@@ -124,4 +124,4 @@ c.fonts.messages.warning = c.fonts.messages.info
 c.fonts.messages.error = c.fonts.messages.info
 c.fonts.completion.entry = c.fonts.statusbar
 c.fonts.completion.category = c.fonts.statusbar
-c.fonts.monospace = '"DejaVuSansMono Nerd Font", "NotoMono Nerd Font", Monospace, "Liberation Mono", monospace'
+c.fonts.monospace = '"DejaVuSansMono Nerd Font", "NotoMono Nerd Font", Monospace, "Liberation Mono"'

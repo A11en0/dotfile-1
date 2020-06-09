@@ -1,0 +1,358 @@
+runfile('/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/topic/views.py', wdir='/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/topic')
+-. . -..- - / . -. - .-. -.--
+runfile('/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/SocialNetworkDataMining/celery.py', wdir='/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/SocialNetworkDataMining')
+-. . -..- - / . -. - .-. -.--
+runfile('/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/topic/test.py', wdir='/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/topic')
+-. . -..- - / . -. - .-. -.--
+runfile('/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/topic/Ensemble.py', wdir='/home/allen/graduateThesis/TwitterDataMining/SocialNetworkDataMining/topic')
+-. . -..- - / . -. - .-. -.--
+# xgbc = XGBClassifier(n_estimators=200)
+# xgbc_ngram = xgbc.fit(train_dtm_ngram, y_train)
+import pandas
+from biterm.utility import topic_summuary
+from sklearn import svm
+import numpy as np
+from sklearn.cluster import KMeans
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+from SocialNetworkDataMining.settings import BASE_DIR
+from topic.myutils import *
+from sklearn.utils import shuffle
+import pyLDAvis.gensim
+
+from SocialNetworkDataMining.models import DataModel
+from mongoengine import connect
+
+connect('test')  # 连接的数据库名称
+
+# 导入logging库
+import logging
+
+# 获取一个logger对象
+logger = logging.getLogger(__name__)
+
+class Block:
+    def __init__(self, X, y):
+        self.X = X
+        self.y = y
+
+    def isEmpty(self):
+        if self.getX().shape[0]:
+            return False
+        else:
+            return True
+
+    def getX(self):
+        return self.X
+
+    def getY(self):
+        return self.y
+
+class Ensemble:
+    '''
+    构建集成分类器：
+    models 模型集合
+    blocks 模型对应块集合
+    H 基分类器数量
+    stream 数据流
+    '''
+    ids = []
+    models = {}  # id:model
+    blocks = {}  # id:block
+    precision = []
+
+    def __init__(self, H=10, blocksize=1000, u=0.9,
+                 base="svm" ,K=5, btm_iterations=10,
+                 svm_gamma="auto", svm_C = 0.8, svm_kernel="linear"):
+        self.H = H
+        self.blocksize = blocksize
+        self.base = "svm"
+        self.u = u
+        self.K = K
+        self.btm_iterations = btm_iterations
+        self.svm_C = svm_C
+        self.svm_gamma = svm_gamma
+        self.svm_kernel = svm_kernel
+
+    def fit(self, train_x, train_y):
+        print("正在生成数据块...")
+        g = self.gen_blocks(train_x, train_y)
+        print("数据块生成完成!")
+        block = next(g)
+        while True:
+            try:
+                print("当前数据块长度: ", block.getX().shape[0])
+                self.train(block)
+                print(self.models)
+                # 预测,保存准确率
+                block = next(g)
+                y_true = block.getY()
+                y_pred = self.predict(block)
+                prec = np.mean(y_pred == y_true)
+                print(prec)
+                self.precision.append(prec)
+
+            except StopIteration as e:
+                break
+
+    def predict(self, block):
+        test_x = block.getX()
+        prob_ = np.array([])
+        sum_ = 0
+        weights_ = self.get_weights()
+        for i in range(len(self.models)):
+            m = self.models[i]
+            classes_ = m.classes_
+            if i == 0:
+                prob_ = np.expand_dims(m.predict_proba(test_x), axis=0)
+            else:
+                p = np.expand_dims(m.predict_proba(test_x), axis=0)
+                prob_ = np.vstack((prob_, p))
+
+        for i in range(prob_.shape[0]):
+            sum_ += prob_[i, :, :] * weights_[i]
+        p = sum_ / len(sum_)
+
+        predict_ = np.argmax(p, axis=1)
+        return predict_
+
+    def get_weights(self):
+        jjweights = []
+        if len(self.ids) == 0:
+            print("ERROR: 基础分类器数量为0!")
+            return
+        weights = [1.0 / len(self.ids)] * len(self.ids)
+        return weights
+
+    def textBlockDist(self, dj, centers):
+        '''
+        参数：
+           dj 新到的短文本数据向量
+           centers 基数据块的所有类簇中心向量
+        作用：
+        计算短文本和数据块之间的语义距离
+           计算单个短文本和所有簇之间的语义距离，选择与某类簇语义距离最小的值当作数据块和短文本的语义距离；
+           由于采用余弦相似度，当余弦夹角越小时，即余弦值越接近1，余弦值越大，语义距离越小。
+        '''
+        dist = []
+        for i in range(centers.shape[0]):
+            v1 = centers[i]
+            v2 = dj
+            dist.append([self.cos_dist(v1, v2), i])
+
+        return max(dist)
+
+    def block2blockDist(self, newblock, oldblock):
+        '''
+        块距离计算函数
+        '''
+        sum_ = 0
+        block_size = newblock.getX().shape[0]
+        d = newblock.getX()
+        kmeans = KMeans(n_clusters=2)
+        kmeans.fit(oldblock.getX())
+        centers = kmeans.cluster_centers_
+
+        for dj in d:            sum_ += self.textBlockDist(dj, centers)[0]
+        avg_dist = 1 - sum_ / block_size
+        #         print(avg_dist)
+        #         # 与u作比较即可得到新数据块是否发生概念漂移
+        #         if avg_dist > u:
+        #             return 1
+        return avg_dist
+
+    def checkConceptDrift(self, newblock, oldblock):
+        '''
+        漂移检测
+        '''
+        dist = self.block2blockDist(newblock, oldblock)
+        print("语义距离:"+str(dist))
+        # 与u作比较即可得到新数据块是否发生概念漂移
+        if dist > self.u:
+            return 1
+        else:
+            return 0
+
+    def replaceSimestModel(self, f, block):
+        '''
+        返回值：最大余弦距离（即最相似）max_和id_
+        '''
+        max_ = -1
+        id_ = 0
+        for id in self.ids:
+            oldblock = self.blocks[id]
+            dist = self.block2blockDist(block, oldblock)
+            if dist > max_:
+                max_ = dist
+                id_ = id
+
+        self.models[id_] = f
+        self.blocks[id_] = block
+        return 1
+
+    def replaceOldestModel(self, f, block):
+        '''
+        替代最早的模型，即id最小的模型
+        '''
+        id_ = min(self.ids)
+        self.models[id_] = f
+        self.blocks[id_] = block
+        return 1
+
+    def make_basic_model(self, block):
+        '''
+        使用block制造一个新的模型
+        '''
+        X = block.getX()
+        y = block.getY()
+
+        clf = svm.SVC(C=self.svm_C, kernel=self.svm_kernel, gamma=self.svm_gamma, probability=True)
+
+        # clf = svm.SVC()  # class
+        clf.fit(X, y)  # training the svc model
+        return clf
+
+    def train(self, newblock):
+        id_ = 0
+        flag = 1  # 新数据块对于所有基分类器都发生概念漂移
+        D = self.models
+        B = self.blocks
+        f = self.make_basic_model(newblock)
+
+        for id in self.ids:
+            oldblock = B[id]
+            if self.checkConceptDrift(oldblock, newblock) == 0:
+                flag = 0
+                break
+
+        if flag == 1:
+            # 新数据块相对于集成模型的所有数据块均发生概念漂移，且集成模型尚未满
+            if len(self.models) < self.H:
+                print("新数据块相对于集成模型的所有数据块均发生概念漂移，且集成模型尚未满")
+                ### 优化点 ###
+                while self.ids.__contains__(id_):
+                    id_ += 1
+                self.ids.append(id_)
+                self.models[id_] = f
+                self.blocks[id_] = newblock
+            # 新数据块相对于集成模型的所有数据块均发生概念漂移，且集成模型已满
+            else:
+                print("新数据块相对于集成模型的所有数据块均发生概念漂移，且集成模型已满")
+                self.replaceOldestModel(f, newblock)
+
+        # 新数据块相对于集成模型的所有数据块并没有都发生概念漂移，选择相似度最高的，即语义距离最近的数据块替换
+        else:
+            print("新数据块相对于集成模型的所有数据块并没有都发生概念漂移，选择相似度最高的，即语义距离最近的数据块替换")
+            self.replaceSimestModel(f, newblock)
+
+    def gen_blocks(self, X, y):
+        from sklearn.feature_extraction.text import CountVectorizer
+        from biterm.utility import vec_to_biterms
+        from biterm.cbtm import oBTM
+
+        length = len(X)
+        size = self.blocksize
+        n = 0
+
+        # vec = TfidfVectorizer(analyzer='word', token_pattern=r'\w{1,}', ngram_range=(2, 3),
+        #                       max_features=5000)
+
+        vec = CountVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_features=3000)
+
+        tf_ = vec.fit(X).toarray()
+
+        print("数据块总长度", length)
+        while True:
+            print("BTM特征表示")
+
+
+
+            # vec = CountVectorizer()
+            temp = X[n * size:(n + 1) * size]
+            if temp.empty:
+                break
+            tf_ = vec.fit_transform(temp).toarray()
+
+            print(tf_.shape)
+
+            # vocab = np.array(vec.get_feature_names())
+            # biterms = vec_to_biterms(tf_)
+            # btm = oBTM(num_topics=self.K, V=vocab)
+            # topics = btm.fit_transform(biterms, iterations=self.btm_iterations)
+            # print("\n\n Visualize Topics ..")
+            # vis = pyLDAvis.prepare(btm.phi_wz.T, topics, np.count_nonzero(tf_, axis=1), vocab, np.sum(tf_, axis=0))
+            # # pyLDAvis.save_json(vis, './vis/online_btm.html')  # path to output
+            # pyLDAvis.save_json(vis, BASE_DIR+'/topic/vis/lda.json')
+            # print("\n\n Topic coherence ..")
+            # topic_summuary(btm.phi_wz.T, tf_, vocab, 10)
+
+            y_ = y[n * size:(n + 1) * size]
+            block = Block(tf_, y_)
+            n += 1
+            yield block
+
+    def cos_dist(self, vec1, vec2):
+        """
+        :param vec1: 向量1
+        :param vec2: 向量2
+        :return: 返回两个向量的余弦相似度
+        """
+        dist1 = float(np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2)))
+        return dist1
+
+if __name__ == "__main__":
+    stop_words = []
+    with open('stopwords.txt', 'r') as f:
+        for line in f:
+            stop_words.append(line.strip('\n'))
+
+    stop_words.extend(
+        ['from', 'subject', 're', 'edu', 'use', 'not', 'would', 'say', 'could', '_', 'be', 'know', 'good', 'go', 'get',
+         'do', 'done',
+         'try', 'many', 'some', 'nice', 'thank', 'think', 'see', 'rather', 'easy', 'easily', 'lot', 'lack', 'make',
+         'want', 'seem',
+         'run', 'need', 'even', 'right', 'line', 'even', 'also', 'may', 'take', 'come', 'http', 'rt', 'retweet'])
+
+    # query = DataModel.objects.all()
+    labels_ = ['smartphone', 'obama', 'chelsea', 'blackfriday', 'arsenal']
+    textDF = pandas.DataFrame()
+    labels, texts = [], []
+
+    for label in labels_:
+        query = DataModel.objects.filter(label=label)[:2000]
+        len(query)
+        for row in query:
+            # create a dataframe using texts and lables
+            texts.append(row.text)
+            labels.append(row.label)
+
+    textDF['text'] = texts
+    textDF['label'] = labels
+
+    data = textDF.copy()
+    encoder = preprocessing.LabelEncoder()
+    data['label_id'] = encoder.fit_transform(data.label)
+    data['text'] = data['text'].map(lambda x: preprocess(x, stop_words))
+    data.dropna(axis=0, how='any', inplace=True)
+    data = shuffle(data)
+    print(data)
+
+    '''
+    使用Ensemble进行分类测试
+    '''
+    E = Ensemble(H=10, blocksize=1000, u=0)
+
+    E.fit(data.text, data.label_id)
+
+    print(E.precision)
+
+    # recall = metrics.recall_score(test_y, y_pred)
+    # F1 = metrics.f1_score(test_y, y_pred)
+    # print("召回率：", recall)
+    # print("F1：", F1)
+
+    # target_names = ['obama', 'smartphone']
+    # print(classification_report(test_y, y_pred, target_names=target_names))
+
+    # print(encoder.inverse_transform(predictions))
+    # print(encoder.inverse_transform(y_test))

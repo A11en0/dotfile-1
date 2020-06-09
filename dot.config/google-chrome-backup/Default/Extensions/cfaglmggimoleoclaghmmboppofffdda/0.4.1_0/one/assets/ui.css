@@ -1,0 +1,102 @@
+html {
+    overflow-x: hidden;
+    background: #f4f6f9;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+a {
+    cursor: pointer;
+}
+
+.content .container {
+    padding-top: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.brand-image .fas {
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+    line-height: 2.4rem;
+}
+
+.navbar-no-expand .nav-link {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.navbar .dropdown-item {
+    padding: .5rem 1rem;
+}
+
+.card {
+    margin-bottom: 1.8rem;
+}
+
+/**************************/
+
+.table-option td {
+    padding: 0.5rem;
+    vertical-align: middle;
+}
+
+.td-switch-input {
+    width: 60px;
+}
+
+.td-switch-title {
+    width: 100px;
+    font-weight: 600;
+}
+
+.td-inline-input {
+    width: 160px;
+    display: inline-block;
+}
+
+/**************************/
+
+.ekko-lightbox .modal-title {
+    font-size: 1rem;
+}
+
+/**************************/
+
+.vue-delay-show {
+    display: none;
+}
+
+.vue-delay-hide {
+    display: inline-block;
+}
+
+.vue-loaded .vue-delay-show {
+    display: inline-block;
+}
+
+.vue-loaded .vue-delay-hide {
+    display: none;
+}
+
+/**************************/
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #cdcdcd;
+}
+
+:root {
+    scrollbar-width: thin;
+}

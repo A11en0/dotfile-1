@@ -32,7 +32,8 @@ alias rdesktop='rdesktop -f -g 1920x1080 -a 32 -z -x b -P'
 alias rg='ranger'
 alias bm='blueman-manager'
 alias rm='echo "This is not the command you are looking for."; false'
-
+alias recordscreen0='ffmpeg -f x11grab -s 2560x1440 -r 30 -i :0.0 -c:v libx264 -crf 0 -preset ultrafast screen.mp4'
+alias recordscreen1='ffmpeg -f x11grab -video_size 2560x1440 -framerate 25 -i $DISPLAY -f alsa -i default -c:v libx264 -preset ultrafast -c:a aac screen.mp4'
 # Local Variables:
 # mode: sh
 # End:
