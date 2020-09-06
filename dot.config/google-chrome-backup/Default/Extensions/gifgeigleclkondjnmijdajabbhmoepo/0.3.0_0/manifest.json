@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "description": "Access gateway.ipfs.io urls the way they were meant: from your locally running ipfs daemon",
+   "icons": {
+      "128": "ipfs-logo-128-white.png",
+      "16": "ipfs-logo-128-white.png",
+      "48": "ipfs-logo-128-white.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzlSbAB3+XeDOcq42PzssM10Il2luotaANu24K3kXv0OJTHQlhB/JkHOCMQRppotsjpyHRN4vGPmaw9aCms5sdrG5985M9v2ZTt+fucqjZM+bVY31wn1z7+rgLr0mj7W5rxfCSQnU4iHIzLiZNghH56BFen5p9ifW5Wvu2czoxTcmUz1hT1b6qqC2QTFZNNBht9E8Vc4cz8nTcS8J9X493NsQzEL8J/6uqkHzYVoTZ1eq9gyTcuAKnPrIfP7gpG+xsgQ6kZAWq73QvvCjzr7iqAy/wJiIafFjlZnyeojCruJlBhdYYlZgI4pG4hs0bFF+NYw/s8XFDk/s/c4o25t8gwIDAQAB",
+   "manifest_version": 2,
+   "name": "IPFS Gateway Redirect",
+   "optional_permissions": [ "file://*/*" ],
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "page_action": {
+      "default_icon": {
+         "19": "ipfs-logo-128-white.png",
+         "38": "ipfs-logo-128-white.png"
+      },
+      "default_title": "Copy as IPFS link"
+   },
+   "permissions": [ "clipboardWrite", "contextMenus", "declarativeContent", "storage", "webRequest", "webRequestBlocking", "http://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.0"
+}

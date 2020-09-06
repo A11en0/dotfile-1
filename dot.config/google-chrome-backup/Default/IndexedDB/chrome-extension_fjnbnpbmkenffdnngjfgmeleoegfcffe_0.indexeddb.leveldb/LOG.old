@@ -1,8 +1,8 @@
-2020/06/08-05:12:49.896 c2b Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/08-05:12:49.897 c2b Recovering log #22
-2020/06/08-05:12:49.897 c2b Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/000022.log 
-2020/06/08-05:18:35.268 111c Level-0 table #26: started
-2020/06/08-05:18:35.268 111c Level-0 table #26: 0 bytes OK
-2020/06/08-05:18:35.269 111c Delete type=0 #22
-2020/06/08-05:18:35.275 111c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/08-05:18:35.275 111c Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2020/06/29-08:42:24.420 d06 Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/29-08:42:24.421 d06 Recovering log #38
+2020/06/29-08:42:24.421 d06 Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/000038.log 
+2020/06/29-08:58:06.302 ef1 Level-0 table #42: started
+2020/06/29-08:58:06.303 ef1 Level-0 table #42: 0 bytes OK
+2020/06/29-08:58:06.303 ef1 Delete type=0 #38
+2020/06/29-08:58:06.304 ef1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/29-08:58:06.304 ef1 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

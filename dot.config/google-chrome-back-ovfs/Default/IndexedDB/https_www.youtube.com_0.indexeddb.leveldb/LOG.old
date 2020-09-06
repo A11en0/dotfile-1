@@ -1,15 +1,8 @@
-2020/06/08-00:44:11.480 1b59c Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/08-00:44:11.480 1b59c Recovering log #63
-2020/06/08-00:44:11.480 1b59c Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000063.log 
-2020/06/08-00:44:45.259 10e5 Level-0 table #68: started
-2020/06/08-00:44:45.260 10e5 Level-0 table #68: 1012 bytes OK
-2020/06/08-00:44:45.261 10e5 Delete type=0 #63
-2020/06/08-00:44:45.261 10e5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/08-00:44:45.261 10e5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x13\x00T\x00i\x00m\x00e\x00s\x00t\x00a\x00m\x00p\x00L\x00o\x00w\x00e\x00r\x00B\x00o\x00u\x00n\x00d' @ 12712 : 1
-2020/06/08-00:44:45.261 10e5 Compacting 1@1 + 1@2 files
-2020/06/08-00:44:45.262 10e5 Generated table #69@1: 40 keys, 2108 bytes
-2020/06/08-00:44:45.262 10e5 Compacted 1@1 + 1@2 files => 2108 bytes
-2020/06/08-00:44:45.262 10e5 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/06/08-00:44:45.262 10e5 Delete type=2 #68
-2020/06/08-00:44:45.262 10e5 Delete type=2 #65
-2020/06/08-00:44:45.263 10e5 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x13\x00T\x00i\x00m\x00e\x00s\x00t\x00a\x00m\x00p\x00L\x00o\x00w\x00e\x00r\x00B\x00o\x00u\x00n\x00d' @ 12712 : 1 .. (end); will stop at (end)
+2020/09/05-22:46:50.167 2f1b Reusing MANIFEST /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/05-22:46:50.167 2f1b Recovering log #82
+2020/09/05-22:46:50.167 2f1b Reusing old log /home/allen/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000082.log 
+2020/09/05-22:47:22.178 2c93 Level-0 table #86: started
+2020/09/05-22:47:22.178 2c93 Level-0 table #86: 0 bytes OK
+2020/09/05-22:47:22.179 2c93 Delete type=0 #82
+2020/09/05-22:47:22.179 2c93 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/05-22:47:22.180 2c93 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
